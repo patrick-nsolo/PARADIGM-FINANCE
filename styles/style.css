@@ -74,21 +74,24 @@
     margin:10px;
     background: #228B22;
     border-radius: 5px;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.3), -5px -5px -5px rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    transition: all 0.5s ease;
 }
 #services .items .item h3{
     color:#073e17;
     font-weight: bold;
+    font: 1rem;
+    margin:5px;
 }
 #services .items .item p{
-    line-height: 1.4;
-    
+    line-height: 1.4;   
 }
 #services .items .item:hover i{
     color: #073e17;
 }
 #services .items .item:hover{
-    background: ;
+    background:#228B22;
+    transition: scale(1.05);
 }
 
 
