@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap'); 
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: Helvetica!important;
+    font-family: 'Lato', sans-serif;
 
 }
 /*Frontpage info styling*/
@@ -12,7 +14,7 @@
     padding: 0 95px;
 }
 .head .frontpage_info h1{
-    color: #FF0000;
+    color: #00ff4c;
     font-size: 60px;
     margin:15px 0;
 }
@@ -43,8 +45,80 @@
     transition: all 0.5s ease;
 }
 .head .frontpage_info .btn-left{
-    background: linear-gradient(to right, #FF0000,#651616 );
+    background: linear-gradient(to right, #00ff4c,#17582a );
 }
 .head .frontpage_info .btn-right{
-    background: linear-gradient(to right, #651616,#FF0000 );
+    background: linear-gradient(to right, #17582a,#00ff4c );
 }
+/*Service Section Styling*/
+.wrapper{
+    max-width:1320px;
+    padding: 0 50px;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+.second-row-wrapper{
+    max-width: 800px ;
+    padding: 0 50px;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+#services .items{
+    display:flex;
+    padding-bottom: 40px;
+    color:#ededed
+}
+#services .items .item{
+    text-align: center;
+    padding:10px;
+    margin:10px;
+    background: #228B22;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3), -5px -5px -5px rgba(0,0,0,0.3);
+}
+#services .items .item h3{
+    color:#073e17;
+    font-weight: bold;
+}
+#services .items .item p{
+    line-height: 1.4;
+    
+}
+#services .items .item:hover i{
+    color: #073e17;
+}
+#services .items .item:hover{
+    background: ;
+}
+
+
+
+
+
+
+
+
+/*utility classes*/
+.text-secondary{
+    color:#FF0000;
+}
+.text-center{
+    text-align: center;
+}
+.light_bg{
+    background: #CFCFCF;
+}
+.secondary_bg{
+    background: #FF0000;
+}
+.fix-0{padding:16px 0;}
+.fix-1{padding:24px 0;}
+.fix-2{padding:32px 0;}
+.fix-3{padding:48px 0;}
+
+.fax-0{padding:16px 0;}
+.fax-1{padding:24px 0;}
+.fax-2{padding:32px 0;}
+.fax-3{padding:48px 0;}
+.fax-3{padding:1px;}
+
