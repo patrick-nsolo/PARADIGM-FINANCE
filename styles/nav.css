@@ -12,7 +12,7 @@
     margin:auto;
     justify-content: space-between;
     align-items: center;
-    background-color: #17582a;
+    background-color: #FFF;
     top: 0;
     left:0;
 }
@@ -23,14 +23,13 @@
 .head .left li a{
     display: inline-block;
     text-decoration: none;
-    color:rgb(226, 226, 226);
+    color:#FF0000;
     padding:5px 15px;
     font-size: 0.9rem;
     transition: all 0.5s ease;
 }
 .head .left li a:hover{
-    color:#17582a;
-
+    color:#651616;
 }
 .head .left li:first-child{
     font-weight: 700;
@@ -43,7 +42,7 @@
 .head .right li a{
     display: inline-block;
     text-decoration: none;
-    color:rgb(226, 226, 226);
+    color:#FF0000;
     padding:5px 15px;
     font-size: 0.9rem;
     transition: all 0.5s ease;
@@ -71,13 +70,12 @@
 }
 .head .navbar-bottom ul li a{
     text-decoration: none; 
-    color:#4CBB17; 
+    color:#FF0000; 
     font-weight: 600; 
     transition:all 0.5s ease;
 }
 .head .navbar-bottom ul li a:hover{
-    color:#17582a;  
-    transition: all 0.5s ease;
-    
+    color:#651616;  
+    transition: all 0.5s ease;   
 }
 

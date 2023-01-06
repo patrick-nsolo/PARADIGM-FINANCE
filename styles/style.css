@@ -14,7 +14,7 @@
     padding: 0 95px;
 }
 .head .frontpage_info h1{
-    color: #00ff4c;
+    color: #e23232;
     font-size: 60px;
     margin:15px 0;
 }
@@ -45,10 +45,10 @@
     transition: all 0.5s ease;
 }
 .head .frontpage_info .btn-left{
-    background: linear-gradient(to right, #00ff4c,#17582a );
+    background: linear-gradient(to right, #651616,#FF0000 );
 }
 .head .frontpage_info .btn-right{
-    background: linear-gradient(to right, #17582a,#00ff4c );
+    background: linear-gradient(to right,#FF0000 ,#651616);
 }
 /*Service Section Styling*/
 .wrapper{
@@ -57,43 +57,16 @@
     margin:0 auto;
     flex-wrap: wrap;
 }
-.second-row-wrapper{
-    max-width: 800px ;
-    padding: 0 50px;
-    margin:0 auto;
-    flex-wrap: wrap;
+.service_image{
+    width:300px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
 }
-#services .items{
-    display:flex;
-    padding-bottom: 40px;
-    color:#ededed
+.top_services{
+    display: flex;
 }
-#services .items .item{
-    text-align: center;
-    padding:10px;
-    margin:10px;
-    background: #228B22;
-    border-radius: 5px;
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
-    transition: all 0.5s ease;
+.bottom_services{
+    display: flex;
 }
-#services .items .item h3{
-    color:#073e17;
-    font-weight: bold;
-    font: 1rem;
-    margin:5px;
-}
-#services .items .item p{
-    line-height: 1.4;   
-}
-#services .items .item:hover i{
-    color: #073e17;
-}
-#services .items .item:hover{
-    background:#228B22;
-    transition: scale(1.05);
-}
-
 
 
 
