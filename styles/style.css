@@ -50,7 +50,10 @@
 .head .frontpage_info .btn-right{
     background: linear-gradient(to right,#FF0000 ,#651616);
 }
-/*Service Section Styling*/
+/*Service Section Styling starts*/
+.service_section{
+    margin-top: 50px;
+}
 .wrapper{
     max-width:1320px;
     padding: 0 50px;
@@ -60,20 +63,56 @@
 .service_image{
     width:300px;
     box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+    display: block;
+    transition: 0.5s ease; 
+}
+.service_image:hover{
+    transform: scale(1.08);
+}
+.service{
+    max-width: 300px;
 }
 .top_services{
     display: flex;
+    justify-content: space-between;
+    margin-top:50px ;
 }
 .bottom_services{
     display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
+.service-name {
+    margin-top: 30px;
+    text-align: center;
+}
+.service-text{
+    margin-top: 12px;
+    text-align: center;
+}
+/*Service Section Styling ends*/
 
 
-
-
-
-
-
+/*About Us Styling starts*/
+.about_section{
+    margin-top: 50px;
+}
+.wrapper{
+    max-width:1320px;
+    padding: 0 50px;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+.about-info{
+    display: flex;
+}
+.about_text{
+    margin-top: 100px;
+}
+.paradigm-team{
+    width: 600px;
+}
+/*About Us Styling ends*/
 /*utility classes*/
 .text-secondary{
     color:#FF0000;
