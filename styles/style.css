@@ -64,13 +64,15 @@
     width:300px;
     box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
     display: block;
-    transition: 0.5s ease; 
+    transition: 0.5s ease;
+    border-radius: 5px; 
 }
 .service_image:hover{
     transform: scale(1.08);
 }
 .service{
     max-width: 300px;
+    
 }
 .top_services{
     display: flex;
@@ -112,6 +114,30 @@
 .paradigm-team{
     width: 600px;
 }
+.paradigm-goals{
+    max-width: 700px;
+    margin:50px auto;
+    padding: 0 50px;
+    display: flex;
+    text-align: center;
+    color: #e23232;
+    /*background: #e1e1e1;*/
+    border-radius: 5px; 
+}
+.vision, .mission{
+    height:300px;
+    padding: 30px;
+    border-radius: 5px; 
+}
+.core-values{
+    display:flex;
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    max-width: 300px;   
+}
+
 /*About Us Styling ends*/
 /*utility classes*/
 .text-secondary{
