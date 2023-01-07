@@ -195,13 +195,68 @@ input, textarea{
     border-radius: 5px;
 }
 /*Contact Styling ends*/
-.contact .wrapper{
-    max-width:1320px;
-    padding: 0 50px;
-    margin:0 auto;
-    flex-wrap: wrap;
-}
 
+
+/*footer Styling starts*/
+footer{
+    max-width: 100%;
+    display:flex;
+    margin:0 auto;
+    padding:30px;
+    justify-content: space-around;
+    background: #bcbcbc;
+
+}
+.footer-info{
+    max-width: 250px;
+}
+.footer-info ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.footer-info ul li a{
+    text-decoration: none;
+    line-height: 30px;
+    color: rgb(71, 70, 70);
+    word-spacing: 4px;
+    transition: 0.5s ease;
+}
+.footer-info ul li a:hover{
+    text-decoration: underline;
+    line-height: 30px;
+    color: #ff0000;
+    word-spacing: 4px;
+}
+.footer-info .media{
+    display: flex;
+    justify-content: space-around;
+    color:#e23232;
+}
+.footer-info h4{
+    color: #e23232;
+    margin-top: 30px;
+}
+.footer-info p{
+    margin-top: 30px;
+    line-height: 30px;
+    color: rgb(71, 70, 70);
+}
+.footer-info .media li a i{
+    color:#e23232;
+    transition: 0.5s ease;
+    margin-top: 20px;
+}
+.footer-info .media li a i:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    color:#651616
+}
+.attribute{
+    text-align: center;
+    height:40px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+}
 
 
 
