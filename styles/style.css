@@ -7,11 +7,18 @@
     font-family: 'Lato', sans-serif;
 
 }
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
 /*Frontpage info styling*/
 .head .frontpage_info{
     max-width: 850px;
     margin-top: 15%;
     padding: 0 95px;
+    background-image: linear-gradient(to right, rgba(238, 233, 233, 0), rgba(255,0,0,0.3));
 }
 .head .frontpage_info h1{
     color: #e23232;
@@ -129,6 +136,9 @@
     padding: 30px;
     border-radius: 5px; 
 }
+.core-values-title{
+    text-align: center;
+}
 .core-values{
     display:flex;
     text-align: center;
@@ -139,6 +149,62 @@
 }
 
 /*About Us Styling ends*/
+
+/*Contact Styling starts*/
+#contact{
+    background: linear-gradient(45deg,#e23232,#973939);
+    margin-top: 50px;
+}
+.contact_details{
+    max-width: 500px;
+}
+
+.cntact_form{
+    max-width: 700px;
+}
+.contact{
+    display: flex;
+    padding: 50px;
+    color: #ffffff;
+    justify-content: space-between;
+}
+.contact_details h3{
+    margin-top: 150px;
+    
+}
+.contact_details p{
+    display: inline-block;
+}
+.submit{
+    background: #bcbcbc;
+    height:50px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 12px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    padding:4vw;   
+}
+input, textarea{
+    border: 0;
+    margin: 10px 0;
+    padding:20px;
+    width: 400px;
+    border-radius: 5px;
+}
+/*Contact Styling ends*/
+.contact .wrapper{
+    max-width:1320px;
+    padding: 0 50px;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+
+
+
+
 /*utility classes*/
 .text-secondary{
     color:#FF0000;
