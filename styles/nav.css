@@ -1,6 +1,6 @@
 /*Top navigation*/
 .head{
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(/images/header-image.webp) no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(/images/satisfied-client.png) no-repeat center center/cover;
     height: 100vh;
     width:100%;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 .head .left li a{
     display: inline-block;
     text-decoration: none;
-    color:#FF0000;
+    color:#e23232;
     padding:5px 15px;
     font-size: 0.9rem;
     transition: all 0.5s ease;
@@ -43,7 +43,7 @@
 .head .right li a{
     display: inline-block;
     text-decoration: none;
-    color:#FF0000;
+    color:#e23232;
     padding:5px 15px;
     font-size: 0.9rem;
     transition: all 0.5s ease;
@@ -71,12 +71,11 @@
 }
 .head .navbar-bottom ul li a{
     text-decoration: none; 
-    color:#FF0000; 
+    color:#e23232; 
     font-weight: 600; 
-    transition:all 0.5s ease;
+    transition:all 0.5s ease-in-out;
 }
 .head .navbar-bottom ul li a:hover{
-    color:#651616;  
-    transition: all 0.5s ease;   
+    color:#14d34e;   
 }
 

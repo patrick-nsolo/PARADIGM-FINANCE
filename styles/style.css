@@ -18,7 +18,7 @@ h3{
     max-width: 850px;
     margin-top: 15%;
     padding: 0 95px;
-    background-image: linear-gradient(to right, rgba(238, 233, 233, 0), rgba(255,0,0,0.3));
+    background-image: linear-gradient(to right, rgba(238, 233, 233, 0), rgba(255,0,0,0.2));
 }
 .head .frontpage_info h1{
     color: #e23232;
@@ -114,12 +114,30 @@ h3{
 }
 .about-info{
     display: flex;
+    margin-top: 100px;
+}
+.about_us, .services{
+    color: #e23232;
 }
 .about_text{
     margin-top: 100px;
+    justify-content: space-between;
+}
+.about_text p{
+    margin-top: 20px;
+    line-height: 25px;
 }
 .paradigm-team{
     width: 600px;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction:normal; 
+}
+@keyframes slide {
+    0%   { right:0px; top:0px;}
+    25%  { left:80px; top: 0px}
 }
 .paradigm-goals{
     max-width: 700px;
