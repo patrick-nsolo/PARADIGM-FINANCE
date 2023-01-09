@@ -1,9 +1,10 @@
-/*Top Navigation Styling*/
+/*Top Navigation Styling Starts*/
 .top-nav{
     display: flex;
     justify-content: space-between;
 }
-button{
+/*button styling*/
+.loan-btn{
     background-color: var(--red);
     border: none;
     color: #fff;
@@ -21,7 +22,7 @@ button{
     letter-spacing: 1px;
     font-size: 16px;
 }
-button:after{
+.loan-btn:after{
     content: '';
     position: absolute;
     opacity: 0;  
@@ -29,13 +30,10 @@ button:after{
     right: -20px;
     transition: 0.5s;
 }
-button:hover{
+.loan-btn:hover{
     padding-right: 24px;
-    padding-left:8px;
-    
+    padding-left:15px;   
 }
-button:hover:after {
-    opacity: 1;
-    right: 10px;
-  }
+/*button styling ends*/
+/*Top Navigation Styling ends*/
 
