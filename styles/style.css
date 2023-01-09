@@ -27,23 +27,36 @@ h1{
 .card-holder-section{
     display:flex;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .card{
     background-color:var(--white);
     height: 100px;
-    width: 300px;   
+    width: 300px;  
+    padding: 15px ; 
+    text-align: center;
+}
+.card:hover{
+    background-color:var(--white);
+    height: 100px;
+    width: 300px;  
+    padding: 15px ; 
+    text-align: center;
 }
 main .wrapper{
     max-width: 1620px;
     padding: 0 95px;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .media-bar{
     position: relative;
-    margin-top: 200px;
+    margin-top: 150px;   
+    list-style: none; 
     
+}
+.media li a{
+    color: var(--red);
 }
 .frontpage_info_highlight{
     color:var(--white);
@@ -52,5 +65,21 @@ main .wrapper{
 .frontpage_info p{
     color: var(--white);
     font-size: 1.5rem;
+}
+.frontpage_info .btn{
+    margin-top: 50px;
+}
+.line{
+    height:5px;
+    border-radius: 10px 10px 0 0;
+}
+.red-line{
+    background-color: var(--red);
+}
+.black-line{
+    background-color: var(--black);
+}
+.grey-line{
+    background-color: var(--grey);
 }
 
