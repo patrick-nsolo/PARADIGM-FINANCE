@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px){
+@media screen and (min-width: 1000px){
      .wrapper{
         text-align: left;
         margin: 10px 0 0 50px ;
@@ -21,14 +21,4 @@
 
 }
 
-@media screen (max-width: 600px) and (min-width: 900px){
-     .card-holder-section{
-          display:block;
-          
-     }
-     .wrapper{
-          margin-left:0;
-     }
 
-
-}
