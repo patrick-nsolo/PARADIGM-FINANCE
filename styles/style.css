@@ -6,123 +6,77 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+img{
+    max-inline-size: 100%;
+    block-size: auto;/*means aspect ratio of images, will remain the same in any screen size*/ 
+
+}
 :root{
     --red:hsl(10, 86%, 49%);
     --black:hsl(0, 0%, 12%);
     --grey:hsl(0, 0%, 38%);
     --white:hsl(0, 0%, 100%);
 }
-/*Landing Page Styling Starts here*/
 body{
     background-image: url(/images/satisfied-client.png);
-    width: 100vw;
+    background-size:contain;
     background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 h1{
-   font-size: 3.3rem; 
-   color: var(--red);
+    font-size: 3rem;
 }
-/*Front Page Cards Section Styling*/
 .card-holder-section{
-    display:flex;
-    justify-content: space-around;
-    margin-top: 150px;
+    display: inline-block;
+    
+}
+.wrapper{
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    color:var(--red)
+}
+.apply-btn{
+    margin-top: 20px;
+    background-color: var(--red);
+    border: 0;
+    height:50px;
+    width:250px;
+    color: var(--white);
+    transition: all 0.5s ease-in-out;
+}
+.apply-btn:hover{
+    padding-left: 25px;
+    padding-right: 10px;
+}
+.card-holder-section{
+    margin-top: 50px;
 }
 .card{
-    transition: all 0.5s ease;
-    background-color:var(--white);
-    border-radius: 10px 10px 0 0;
+    background: var(--white);
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    width: 400px;
+    height: 150px;
+    transition: all 0.5s ease-in-out;
 }
 .card:hover{
-    transform: scale(1.08);
-    color:var(--red);
+    transform: scale(1.05);
 }
 .line{
-    height:5px;
-    border-radius: 10px 10px 0 0;
+    height: 7px;
 }
 .red-line{
     background-color: var(--red);
 }
-.black-line{
-    background-color: var(--black);
-}
 .grey-line{
     background-color: var(--grey);
 }
-.card-info{
-    width: 300px;  
-    padding: 15px ; 
-    text-align: center;
+.black-line{
+    background-color: var(--black);
 }
-/*Front Page Cards Section Styling ends here*/
-/*Front Page Text Section Styling*/
-.wrapper{
-    max-width: 1320px;
-    padding: 0 95px;
-    position: absolute;
-    margin-top: 150px;
+.history-card{
+    margin-top: 30px;
 }
-.media-bar{
-    position: relative;
-    margin-top: 180px;     
+.philosophy-card{
+    margin-top: 30px;
 }
-.media{
-    list-style: none; 
-}
-.bxl-instagram:hover{
-    padding-right: 15px;
-    padding-left:24px;  
-}
-.bxl-facebook:hover{
-    padding-right: 15px;
-    padding-left:24px;  
-}
-.bxl-twitter:hover{
-    padding-right: 15px;
-    padding-left:24px;  
-}
-.bxl-whatsapp:hover{
-    padding-right: 15px;
-    padding-left:24px;  
-}
-.media li a{
-    color: var(--red);
-}
-.frontpage_info_highlight{
-    color:var(--white);
-    font-weight: bolder;
-}
-.frontpage_info p{
-    color: var(--white);
-    font-size: 1.5rem;
-}
-.frontpage_info .btn{
-    margin-top: 50px;
-}
-.apply-btn{
-    background-color: var(--red);
-    border: none;
-    color: #fff;
-    width: 300px;
-    height: 50px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin-top: 6px;
-    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
-}
-.apply-btn:after{
-    content: '';
-    position: absolute;
-    opacity: 0;  
-    top: 14px;
-    left: -20px;
-    transition: 0.5s;
-}
-.apply-btn:hover{
-    padding-right: 15px;
-    padding-left:24px;   
-}
-/*Front Page Text Section Styling ends here*/
-
