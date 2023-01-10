@@ -62,6 +62,14 @@ h1{
 .card:hover{
     transform: scale(1.05);
 }
+.card-info .bx{
+    margin-top: 25px;  
+    transition: all 0.5s ease-in-out;
+}
+.card-info .bx:hover{
+    transform: scale(1.08);
+    
+}
 .line{
     height: 7px;
 }
@@ -79,4 +87,24 @@ h1{
 }
 .philosophy-card{
     margin-top: 30px;
+}
+.media-bar{
+    margin-top: 35px;
+}
+.media{
+    display: inline-flex;
+}
+.media li{
+    list-style: none;
+}
+.media li a{
+    list-style: none;
+    color: var(--red);
+}
+.media .bx{
+    transition: all 0.5s ease-in-out;
+
+}
+.media .bx:hover{
+    transform: scale(1.2);   
 }
