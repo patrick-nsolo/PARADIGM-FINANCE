@@ -75,6 +75,7 @@ h1{
 .card-info .bx{
     margin-top: 25px;  
     transition: all 0.5s ease-in-out;
+    color: var(--red);
 }
 .card-info .bx:hover{
     transform: scale(1.08);
