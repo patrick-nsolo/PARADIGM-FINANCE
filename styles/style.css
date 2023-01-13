@@ -63,21 +63,21 @@ h1{
     font-size: 1rem;
 }
 .card-holder-section{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .card{
     background: var(--white);
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
     border-radius: 10px 10px 0 0;
     width: 300px;
-    height: 150px;
+    height: 100px;
     transition: all 0.5s ease-in-out;
 }
 .card:hover{
     transform: scale(1.05);
 }
 .card-info .bx{
-    margin-top: 25px;  
+    margin-top: 15px;  
     transition: all 0.5s ease-in-out;
     color: var(--red);
 }
@@ -123,4 +123,10 @@ h1{
 }
 .media .bx:hover{
     transform: scale(1.2);   
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+    color: var(--red);
+    
 }
