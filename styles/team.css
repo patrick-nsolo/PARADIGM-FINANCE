@@ -153,16 +153,12 @@ main div h2{
     font-size: 1.2rem;
     margin-top: 20px;
 }
-.directors{
-    max-width: 400px;
-}
 .chairman{
-    display:flex;
+    display:inline-block;
+    justify-content: space-around;
 }
-.director-image{
-    width:200px;
-    border-radius: 360px 360px;
-}
+
+
 
 
 
