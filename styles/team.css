@@ -136,11 +136,32 @@ img{
 
 /*BODY STYLING STARTS HERE*/
 main{
-    
-    
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+main div h2{
+    font-size: 30px;
+    color: var(--red);
+}
+.page-title{
+    color:var(--red);
+    margin-top: 50px;
+    padding: 20PX;
+}
+.page-title p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.directors{
+    max-width: 400px;
+}
+.chairman{
+    display:flex;
+}
+.director-image{
+    width:200px;
+    border-radius: 360px 360px;
 }
 
 
