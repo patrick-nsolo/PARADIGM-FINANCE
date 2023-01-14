@@ -23,7 +23,33 @@ img{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--orange);
+    background: var(--white);
     padding: 0 25px;
     transition: 0.3s;
 }
+.top-nav{
+    display: inline-flex;
+}
+.top-nav ul{
+    display: flex;
+    list-style: none;
+    z-index: 1;
+    transition: 0.5s;
+}
+.top-nav ul li a{
+    text-decoration: none;
+    color: var(--red);
+    paddig:20px;
+}
+
+/*.hamburger{
+    position: relative;
+    width: 30px;
+    height:4px;
+    background: var(--black);
+    border-radius: 10px;
+    cursor:pointer;
+    z-index: 2;
+    transition: 0.3s;
+    margin-top: 49px;
+}*/
