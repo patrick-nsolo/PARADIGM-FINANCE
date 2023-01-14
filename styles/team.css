@@ -135,7 +135,13 @@ img{
 /*NAVIGATION STYLING ENDS HERE*/
 
 /*BODY STYLING STARTS HERE*/
-
+main{
+    
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
