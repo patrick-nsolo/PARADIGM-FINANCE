@@ -153,7 +153,10 @@ main div h2{
     font-size: 1.2rem;
     margin-top: 20px;
 }
-.directors{
+.directors, .management{
+    margin-top: 100px;
+}
+.team{
     margin-top: 100px;
 }
 .team-image{
@@ -171,6 +174,7 @@ main div h2{
     .profile-info{
         display: flex;
         justify-content: space-around;
+        margin-top:150px;
     }
     .profile{
         max-width: 600px;
@@ -181,6 +185,7 @@ main div h2{
         text-align: left;
         marginleft: 50;
     }
+    .
 }
 
 
