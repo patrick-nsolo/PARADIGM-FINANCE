@@ -153,9 +153,34 @@ main div h2{
     font-size: 1.2rem;
     margin-top: 20px;
 }
-.chairman{
-    display:inline-block;
-    justify-content: space-around;
+.directors{
+    margin-top: 100px;
+}
+.team-image{
+    width:150px;
+    border-radius: 50%;
+}
+.details h2{
+    font-size: 25px;
+}
+.details p{
+    font-size: 20px;
+}
+
+@media screen and (min-width:1200px){
+    .profile-info{
+        display: flex;
+        justify-content: space-around;
+    }
+    .profile{
+        max-width: 600px;
+        text-align: justify;
+    }
+    .details{
+        margin-top: 50px;
+        text-align: left;
+        marginleft: 50;
+    }
 }
 
 
