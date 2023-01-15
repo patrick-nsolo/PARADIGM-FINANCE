@@ -122,7 +122,7 @@ img{
         position: fixed;
         top:0;
         right:-350px;
-        background: var(--orange);
+        background: #ec8484;
         width:350px;
         height: 100%;
         padding-top: 70px;
