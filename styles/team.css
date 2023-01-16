@@ -205,7 +205,52 @@ main div h2{
 .mildred,.kayode,.chukwumampam,.giovanni,.femi,.ekeoma,.anyanwu{
     margin-top: 50px;
 }
+.footer{
+    display:inline-block;
+    background: var(--red);
+    width: 100%;
+    margin-top: 50px;
+    color:var(--white);
+    
+}
+.footer h5{
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
+.footer-nav{
+    margin:50px;
+}
+.footer-nav ul{
+    
+    list-style: none;
+    
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:var(--white);
+    line-height: 40px;
+}
+.footer-nav ul li a:hover{
+    box-shadow: 0 -5px 0px var(--red) inset, 500px 0 0 rgba(196, 48, 3, 0.833) inset;
+    padding:5px 7px 15px 5px;
+    color: var(--white);
+}
+.footer-nav ul li i{
+    line-height: 40px;
+}
+.footer-nav ul li .bx-home{
+    line-height: 40px;
 
+}
+.media{
+    display:flex;
+    list-style: none;
+    margin-left: 50px;
+}
+.media li a{
+    color:var(--white)
+}
 
 @media screen and (min-width:1200px){
     .top-nav{
