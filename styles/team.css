@@ -217,7 +217,7 @@ main div h2{
         margin-top:150px;
     }
     .team-image{
-        margin-left: 150px;
+        margin-left: 250px;
     }
     .profile{
         padding:20px 400px;
@@ -225,8 +225,18 @@ main div h2{
         transition: all 0.5s ease;
     }
     .details{
-        margin:50px 150px 0 0;
+        margin:50px 230px 0 0;
         text-align: left;
+    }
+    /*Team member styling*/
+    .mildred-details{
+        margin-left:-50px;
+    }
+    .kayode-details{
+        margin-left: -30px;
+    }
+    .chukwumampam-details{
+        margin-left: 50px;
     }
     
 }
