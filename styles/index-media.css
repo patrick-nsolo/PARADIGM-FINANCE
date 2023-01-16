@@ -4,11 +4,15 @@
         margin: 70px 0 0 50px ;
      }
      body{
-        background-image: url(/images/test-landing.png);
+        background-image: url(/images/new-landing.png);
         background-size:cover;     
      } 
+     
      h1{
           font-size: 4rem;
+     }
+     .head{
+      
      }
      .card-holder-section{
         display:flex;

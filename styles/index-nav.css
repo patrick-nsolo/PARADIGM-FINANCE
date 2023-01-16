@@ -1,12 +1,9 @@
 /*Top Navigation Styling Starts*/
-.logo{
-    width: 300px;
-    height: 120px;
-}
-.top-nav{
+.head{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
 }
+
 /*button styling*/
 .loan-btn{
     margin-top: 3px;
