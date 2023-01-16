@@ -1,12 +1,15 @@
 
-function myFunction() {
-    var x = document.getElementById("chairman-dropdown, mildred-dropdown");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
+function myFunction(id) {
+    var dropdown = document.getElementById(id);
+    if (dropdown.style.display === "block"){
+        dropdown.style.display = "none";
+    }else {
+        dropdown.style.display = "block";
     }
-  }
+
+}
+    
+
 
 
 

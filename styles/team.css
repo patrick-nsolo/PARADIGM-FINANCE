@@ -191,11 +191,21 @@ main div h2{
     padding: 20px 70px;
     text-align: justify;
     transition: all 0.5s ease;
+    display: none;
+    
+    color: var(--white);
 }
-.lne{
-    height: 5px;
-    width: 1000px;
+.show{
+    display:none;
 }
+.card{
+    background: var(--red); 
+    margin-top:10px;  
+}
+.mildred,.kayode,.chukwumampam,.giovanni,.femi,.ekeoma,.anyanwu{
+    margin-top: 50px;
+}
+
 
 @media screen and (min-width:1200px){
     .profile-info{
@@ -215,7 +225,7 @@ main div h2{
         margin:50px 150px 0 0;
         text-align: left;
     }
-    .
+    
 }
 
 
