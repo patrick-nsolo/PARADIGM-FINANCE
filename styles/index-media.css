@@ -5,7 +5,8 @@
      }
      body{
         background-image: url(/images/test-landing.png);
-        background-size:cover;     
+        background-size:cover;  
+        height:70%;   
      } 
      
      h1{
