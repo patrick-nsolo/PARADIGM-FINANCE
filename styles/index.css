@@ -33,7 +33,7 @@ h1{
     100% { opacity: 1; }
 }
 .hero-image{
-    
+
 }
 .frontpage_info_highlight{
     color:var(--red);
@@ -78,6 +78,16 @@ h1{
 }
 .card:hover{
     transform: scale(1.05);
+}
+.card p {
+    margin-top: 30px;
+    font-size: 25px;
+}
+.retail{
+    color:var(--black);
+}
+.premium{
+    color:var(--grey);
 }
 .card-info .bx{
     margin-top: 15px;  
