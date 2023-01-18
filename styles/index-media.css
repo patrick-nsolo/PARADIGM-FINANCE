@@ -17,6 +17,7 @@
         margin-left: -500px;
         animation: slideInRight 4s forwards;
         position: absolute;
+        display: none;
      }
      @keyframes slideInRight {
         from {
