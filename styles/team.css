@@ -41,7 +41,7 @@ img{
     text-decoration: none;
     color: var(--red);
     display:block;
-    padding:40px 45px;
+    padding:40px 20px;
     font-size: 18px;
     transition: 0.3s;
 }
