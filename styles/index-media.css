@@ -6,7 +6,17 @@
      .hero-image{
         margin-top: 50px;
      }
-     
+     .hero-text{
+        animation: slideInRight 2s forwards;
+     }
+     @keyframes slideInRight {
+        from {
+            transform: translateX(100%);
+        }
+        to{
+            transform: translateX(0);
+        }
+     }
      h1{
         font-size: 4rem;
      }

@@ -34,7 +34,7 @@ h1{
     100% { opacity: 1; }
 }
 .hero-content{
-    dis
+    display: flex;
 }
 .hero-image{
     margin-top: 50px;
