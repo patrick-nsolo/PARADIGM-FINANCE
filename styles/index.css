@@ -22,12 +22,7 @@ html{
     height: auto;
 
 }
-body{
-    background-image: url(/images/test-landing.png);
-    background-size:contain;
-    background-repeat:no-repeat;
-    
-}
+
 h1{
     font-size: 3rem;
     animation:fadeIn 3s;
@@ -37,7 +32,9 @@ h1{
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
-
+.hero-image{
+    
+}
 .frontpage_info_highlight{
     color:var(--red);
 }

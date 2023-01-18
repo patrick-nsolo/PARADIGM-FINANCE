@@ -3,11 +3,9 @@
         text-align: left;
         margin: 70px 0 0 50px ;
      }
-     body{
-        background-image: url(/images/test-landing.png);
-        background-size:cover;  
-        height:70vh;   
-     } 
+     .hero-image{
+        margin-top: 100px;
+     }
      
      h1{
         font-size: 4rem;
