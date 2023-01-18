@@ -284,6 +284,15 @@ main div h2{
     .details{
         margin:50px 230px 0 0;
         text-align: left;
+        animation: profileSlide 2s forwards;
+    }
+    @keyframes profileSlide{
+        from{
+            transform: translateX(100%);
+        }
+        to{
+            transform: translateX(0);
+        }
     }
     /*Team member styling*/
     .mildred-details{
