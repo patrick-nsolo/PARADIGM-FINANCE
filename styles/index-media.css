@@ -4,7 +4,7 @@
         margin: 70px 0 0 50px ;
      }
      .hero-image{
-        margin-top: 100px;
+        margin-top: 50px;
      }
      
      h1{
@@ -15,10 +15,7 @@
      }
      .card-holder-section{
         display:flex;
-        justify-content: space-around;    
-     }
-     .media-bar{
-        margin: 10px auto ;    
+        justify-content: space-evenly;    
      }
      .card{
         margin-top: auto;
