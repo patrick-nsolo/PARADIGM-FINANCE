@@ -17,6 +17,7 @@ img{
     --grey:hsl(0, 0%, 38%);
     --white:hsl(0, 0%, 100%);
     --green:rgb(7, 181, 39);
+    --blue:rgb(30, 7, 181);
 }
 html{
     width: 100%;
@@ -81,7 +82,7 @@ h1{
     background: var(--white);
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
     border-radius: 10px 10px 0 0;
-    width: 300px;
+    width: 250px;
     height: 100px;
     transition: all 0.5s ease-in-out;
 }
@@ -119,6 +120,9 @@ h1{
 }
 .black-line{
     background-color: var(--black);
+}
+.blue-line{
+    background-color: var(--blue);
 }
 .history-card{
     margin-top: 30px;
