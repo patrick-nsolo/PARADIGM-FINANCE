@@ -69,6 +69,9 @@ h1{
 .card-holder-section{
     margin-top: 100px;
 }
+.card-holder-section a{
+    text-decoration: none;
+}
 .card{
     background: var(--white);
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
@@ -83,13 +86,10 @@ h1{
 .card p {
     margin-top: 30px;
     font-size: 25px;
-}
-.retail{
-    color:var(--black);
-}
-.premium{
     color:var(--grey);
+    text-transform:capitalize;
 }
+
 .card-info .bx{
     margin-top: 15px;  
     transition: all 0.5s ease-in-out;
