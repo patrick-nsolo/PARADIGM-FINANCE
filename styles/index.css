@@ -34,7 +34,7 @@ h1{
     100% { opacity: 1; }
 }
 .hero-image{
-
+     margin-top: 50px;
 }
 .frontpage_info_highlight{
     color:var(--red);
@@ -65,9 +65,6 @@ h1{
 .btn-text{
     margin-right: 20px;
     font-size: 1rem;
-}
-.card-holder-section{
-    margin-top: 100px;
 }
 .card-holder-section a{
     text-decoration: none;
@@ -119,6 +116,9 @@ h1{
     margin-top: 30px;
 }
 .philosophy-card{
+    margin-top: 30px;
+}
+.corporate-card{
     margin-top: 30px;
 }
 .media-bar{
