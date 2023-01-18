@@ -3,16 +3,24 @@
         text-align: left;
         margin: 70px 0 0 50px ;
      }
+     .hero-content{
+        display: flex;
+     }
      .hero-image{
         margin-top: 50px;
      }
+     .lady-image{
+      position:relative;
+   }
      .hero-text{
         margin-top: 100px;
-        animation: slideInRight 2s forwards;
+        margin-left: -500px;
+        animation: slideInRight 4s forwards;
+        position: absolute;
      }
      @keyframes slideInRight {
         from {
-            transform: translateX(100%);
+            transform: translateX(600%);
         }
         to{
             transform: translateX(0);
@@ -21,6 +29,7 @@
      h1{
         font-size: 4rem;
      }
+     
      .frontpage_wrapper{
         margin-top: 300px;
      }
