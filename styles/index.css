@@ -16,6 +16,7 @@ img{
     --black:hsl(0, 0%, 12%);
     --grey:hsl(0, 0%, 38%);
     --white:hsl(0, 0%, 100%);
+    --green:rgb(7, 181, 39);
 }
 html{
     width: 100%;
@@ -107,6 +108,9 @@ h1{
 }
 .grey-line{
     background-color: var(--grey);
+}
+.green-line{
+    background-color: var(--green);
 }
 .black-line{
     background-color: var(--black);
