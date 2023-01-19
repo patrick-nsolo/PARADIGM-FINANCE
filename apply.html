@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo-thumbnail.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/styles/apply.css">
+    <link rel="stylesheet" href="/boxicons-2.1.4/css/boxicons.min.css">
+    <script src="app.js"></script>
+    <title>Paradigm Finance</title>
+</head>
+<body>
+    <header class="nav-wrapper">
+        <div class="logo">
+            <img src="/images/logo.png" alt="paradigm-logo" width="300px"/>
+        </div>
+        <nav class="top-nav">
+            <input type="checkbox" class="toggle-btn">
+            <span class="hamburger"></span>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="team.html">About Us</a></li>
+                <li><a href="#">Retail Services</a></li>
+                <li><a href="#">Premium Services</a></li>
+                <li><a href="#">Corporate</a></li>
+                <li><a href="#">Apply for a loan</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="loan-amount">Loan Amount:</label>
+            <input type="number" id="loan-amount" name="loan-amount">
+            
+            <label for="interest-rate">Interest Rate (%):</label>
+            <input type="number" id="interest-rate" name="interest-rate">
+            
+            <label for="loan-term">Loan Term (years):</label>
+            <input type="number" id="loan-term" name="loan-term">
+            
+            <button type="button" onclick="calculatePayment()">Calculate Payment</button>
+            
+            <label for="monthly-payment">Monthly Payment:</label>
+            <input type="text" id="monthly-payment" name="monthly-payment" readonly>
+        </form>
+    </main>
+    <footer>
+        <div class="footer">
+            <div>
+                <h5>Quick Links</h5>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">About Us</a></li>
+                        <li><a href="#">Retail Services</a></li>
+                        <li><a href="#">Premium Services</a></li>
+                        <li><a href="#">Corporate</a></li>
+                        <li><a href="#">Apply for a loan</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h5>Important Info</h5>
+                <div class="footer-nav">
+                    <ul>
+                        <li><i class="bx bx-home bx-sm"></i>1st Floor, LAPAL House, Suite 1A & B, Smart Office Suites, 235 Igbosere Street, Lagos Island, Lagos, Nigeria</li>
+                        <li><i class="bx bx-phone bx-sm"></i>(+234) 091 3938 5546</li>
+                        <li><i class="bx bx-envelope bx-sm"></i>info@paradigmfinance.ng</li>
+                        <li><i class="bx bx-time bx-sm"></i>8:00am - 5:00pm</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h5>Social Media</h5>
+                <div class="media-bar">
+                    <ul class="media">
+                        <li><a href="#" target="blank"><i class="bx bxl-instagram bx-lg"></i></a></li>
+                        <li><a href="#" target="blank"><i class="bx bxl-facebook bx-lg"></i></a></li>
+                        <li><a href="#" target="blank"><i class="bx bxl-twitter bx-lg"></i></a></li>
+                        <li><a href="https://wa.me/+2349139385546" target="blank"><i class="bx bxl-whatsapp bx-lg"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        
+    </footer> 
+    <attribute class="attribute">
+        <p>Paradigm Finance Limited | Powered by Aurora Digital Solutions</p>
+    </attribute>  
+</body>
+</html>
