@@ -21,8 +21,9 @@ img{
 .head{
     display: flex;
     justify-content: end;
+    background: var(--red);
 }
-/*NAVIGATION STYLING STARTS HERE*/
+/*NAVIGATION STYLING STARTS HERE
 .nav-wrapper{
     position:relative;
     width: 100%;
@@ -136,7 +137,7 @@ img{
         width: 100%;
     }
     
-}
+}*/
 /*NAVIGATION STYLING ENDS HERE*/
 
 /*BODY STYLING STARTS HERE*/
@@ -158,8 +159,9 @@ main div h2{
     font-size: 1.2rem;
     margin-top: 10px;
 }
-.directors, .management{
-    margin-top: 100px;
+.directors{
+    display: inline-block;
+    white-space: normal;
 }
 .team{
     margin-top: 20px;
@@ -212,12 +214,6 @@ main div h2{
 }
 
 
-.marquee{
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: slide 10s linear infinite;
-}
 
 
 
@@ -225,7 +221,8 @@ main div h2{
 
 
 
-/*FOOTER STYLING*/
+
+/*FOOTER STYLING
 .footer{
     display:inline-block;
     background: var(--red);
@@ -276,7 +273,7 @@ main div h2{
 }
 .media li a i:hover{
     transform: scale(1.08);
-}
+}*/
 .attribute p{
     text-align: center;
     height: 50px;
@@ -286,9 +283,7 @@ main div h2{
 }
 
 @media screen and (min-width:1200px){
-    .top-nav{
-        float: left;
-    }
+    
     .profile-info{
         display: flex;
         justify-content: space-around;
@@ -325,7 +320,18 @@ main div h2{
     .chukwumampam-details{
         margin-left: 50px;
     }
-    
+    .directors{
+        display: inline-block;
+        white-space: normal;
+    }
+    @keyframes slide {
+        from {
+          transform: translateX(100%);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
 }
 
 
