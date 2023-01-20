@@ -210,6 +210,22 @@ main div h2{
 .mildred,.kayode,.chukwumampam,.giovanni,.femi,.ekeoma,.anyanwu{
     margin-top: 50px;
 }
+
+
+.marquee{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: slide 10s linear infinite;
+}
+
+
+
+
+
+
+
+/*FOOTER STYLING*/
 .footer{
     display:inline-block;
     background: var(--red);
