@@ -22,6 +22,11 @@ img{
     display: flex;
     justify-content: end;
     background: var(--red);
+    padding: 30px;
+}
+.top-nav{
+    background: var(--white);
+   
 }
 /*NAVIGATION STYLING STARTS HERE
 .nav-wrapper{
