@@ -20,11 +20,16 @@ function calculatePayment() {
   }
     
 //PROFILE PAGE SCROLL
-$(document).ready(function(){
-    $("#dropdown-btn").click(function(){
-        $(this).prev(".profile-info").toggle();
-    });
-});
+let currentProfile = 0;
+let profiles = document.getElementsByClassName("directors");
+
+function nextProfile() {
+    profiles[currentProfile].style.display = "none";
+    currentProfile = (currentProfile + 1) % profiles.length;
+    profiles[currentProfile].style.display = "block";
+}
+
+setInterval(nextProfile, 2000);
 
 
 
