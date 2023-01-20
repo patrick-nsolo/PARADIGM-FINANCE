@@ -21,8 +21,8 @@ function calculatePayment() {
     
 //PROFILE PAGE SCROLL
 $(document).ready(function(){
-    $(".toggle-btn").click(function(){
-        $(this).prev(".content").toggle();
+    $("#dropdown-btn").click(function(){
+        $(this).prev(".profile-info").toggle();
     });
 });
 
