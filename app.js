@@ -19,6 +19,12 @@ function calculatePayment() {
     document.getElementById("monthly-payment").value = monthlyPayment.toFixed(2);
   }
     
+//PROFILE PAGE SCROLL
+$(document).ready(function(){
+    $(".toggle-btn").click(function(){
+        $(this).prev(".content").toggle();
+    });
+});
 
 
 

@@ -9,26 +9,19 @@
     <link rel="stylesheet" type="text/css" href="/styles/team.css">
     <link rel="stylesheet" href="/boxicons-2.1.4/css/boxicons.min.css">
     <script src="app.js"></script>
+    <script type="text/javascript" src="/jquery-3.6.3.min.js"></script>
     <title>Paradigm Finance</title>
 </head>
 <body>
-    <header class="nav-wrapper">
-        <div class="logo">
-            <img src="/images/logo.png" alt="paradigm-logo" width="300px"/>
-        </div>
-        <nav class="top-nav">
-            <input type="checkbox" class="toggle-btn">
-            <span class="hamburger"></span>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="team.html">About Us</a></li>
-                <li><a href="#">Retail Services</a></li>
-                <li><a href="#">Premium Services</a></li>
-                <li><a href="#">Corporate</a></li>
-                <li><a href="#">Apply for a loan</a></li>
-            </ul>
-        </nav>
-    </header>
+    <main>
+        <div class="head"> 
+            <!--top navigation section-->
+            <div class="top-nav">
+                <a class="logo"><img src="images/logo.png" alt="paradigm-logo" width="400px" height="60px"/></a>
+                <!--<a href="#" class="btn apply"></a> --> 
+            </div>
+        </div>               
+    </main>
     <main>
         <div class="page-title">
             <h1>The Paradigm Finance Team</h1>
@@ -36,6 +29,7 @@
             a penchant for digital innovation, and expertise to pursue excellent service delivery</p>
         </div>
         <div><h2 class="team">Board of Directors</h2></div>
+        <div class="marquee" onmouseover="this.stop();" onmouseout="this.start();">
         <div class="directors">
             <div class="chairman ">
                 <div class="profile-info">
@@ -219,6 +213,7 @@
                     <div class="line"></div>
                 </div>
             </div>
+        </div>
         </div>
     </main>
     <footer>

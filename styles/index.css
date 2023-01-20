@@ -17,7 +17,8 @@ img{
     --grey:hsl(0, 0%, 38%);
     --white:hsl(0, 0%, 100%);
     --green:rgb(7, 181, 39);
-    --blue:rgb(30, 7, 181);
+    --blue:rgb(29, 14, 126);
+    --lightblue:rgb(0, 213, 255);
 }
 html{
     width: 100%;
@@ -96,7 +97,9 @@ h1{
     color:var(--grey);
     text-transform:capitalize;
 }
-
+.contact-card-info p{
+    color:var(--red);
+}
 .card-info .bx{
     margin-top: 15px;  
     transition: all 0.5s ease-in-out;
@@ -124,6 +127,9 @@ h1{
 }
 .blue-line{
     background-color: var(--blue);
+}
+.lightblue-line{
+    background-color: var(--lightblue);
 }
 .history-card{
     margin-top: 30px;

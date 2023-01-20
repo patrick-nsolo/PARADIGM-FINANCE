@@ -17,6 +17,11 @@ img{
     --grey:hsl(0, 0%, 38%);
     --white:hsl(0, 0%, 100%);
 }
+/*Top Navigation Styling Starts*/
+.head{
+    display: flex;
+    justify-content: end;
+}
 /*NAVIGATION STYLING STARTS HERE*/
 .nav-wrapper{
     position:relative;
@@ -146,18 +151,18 @@ main div h2{
 }
 .page-title{
     color:var(--red);
-    margin-top: 20px;
-    padding: 20PX;
+    margin-top: 5px;
+    padding: 10PX;
 }
 .page-title p{
     font-size: 1.2rem;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .directors, .management{
     margin-top: 100px;
 }
 .team{
-    margin-top: 100px;
+    margin-top: 20px;
 }
 .team-image{
     width:150px;
