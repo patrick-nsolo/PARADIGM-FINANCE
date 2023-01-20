@@ -228,6 +228,7 @@ main div h2{
 
 
 
+
 /*FOOTER STYLING
 .footer{
     display:inline-block;
@@ -289,8 +290,27 @@ main div h2{
 }
 
 @media screen and (min-width:1200px){
+    .marquee{
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: slide 10s linear infinite;
+    }
+    @keyframes slide {
+        from {
+          transform: translateX(100%);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+    }
+    .directors{
+        display: inline-block;
+        white-space: normal;
+    }
+}
     
-    .profile-info{
+    /*.profile-info{
         display: flex;
         justify-content: space-around;
         margin-top:150px;
@@ -317,7 +337,7 @@ main div h2{
         }
     }
     /*Team member styling*/
-    .mildred-details{
+    /*.mildred-details{
         margin-left:-50px;
     }
     .kayode-details{
@@ -326,10 +346,7 @@ main div h2{
     .chukwumampam-details{
         margin-left: 50px;
     }
-    .directors{
-        display: inline-block;
-        white-space: normal;
-    }
+    
     @keyframes slide {
         from {
           transform: translateX(100%);
@@ -338,7 +355,7 @@ main div h2{
           transform: translateX(-100%);
         }
       }
-}
+}*/
 
 
 
