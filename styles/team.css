@@ -22,10 +22,11 @@ img{
     display: flex;
     justify-content: end;
     background: var(--red);
-    padding: 30px;
+    padding: 10px;
 }
 .top-nav{
     background: var(--white);
+    border-radius: 5px;
    
 }
 /*NAVIGATION STYLING STARTS HERE
@@ -162,14 +163,14 @@ main div h2{
 }
 .page-title p{
     font-size: 1.2rem;
-    margin-top: 10px;
+    margin-top:5px;
 }
 .directors{
     display: inline-block;
     white-space: normal;
 }
 .team{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .team-image{
     width:150px;
