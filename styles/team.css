@@ -290,72 +290,20 @@ main div h2{
 }
 
 @media screen and (min-width:1200px){
-    .marquee{
-        width: 100%;
-        overflow: hidden;
-        white-space: nowrap;
-        animation: slide 10s linear infinite;
-    }
-    @keyframes slide {
-        from {
-          transform: translateX(100%);
-        }
-        to {
-          transform: translateX(-100%);
-        }
-    }
-    .directors{
-        display: inline-block;
-        white-space: normal;
-    }
-}
-    
-    /*.profile-info{
+    .profile-info{
         display: flex;
-        justify-content: space-around;
-        margin-top:150px;
     }
-    .team-image{
-        margin-left: 250px;
+    .pair{
+        display: flex;
+        justify-content: space-evenly;
     }
     .profile{
-        padding:20px 400px;
-        text-align: justify;
-        transition: all 0.5s ease;
+        width: 400px;
     }
-    .details{
-        margin:50px 230px 0 0;
-        text-align: left;
-        animation: profileSlide 2s forwards;
+    .chairman{
+        margin-top: 50px;
     }
-    @keyframes profileSlide{
-        from{
-            transform: translateX(100%);
-        }
-        to{
-            transform: translateX(0);
-        }
-    }
-    /*Team member styling*/
-    /*.mildred-details{
-        margin-left:-50px;
-    }
-    .kayode-details{
-        margin-left: -30px;
-    }
-    .chukwumampam-details{
-        margin-left: 50px;
-    }
-    
-    @keyframes slide {
-        from {
-          transform: translateX(100%);
-        }
-        to {
-          transform: translateX(-100%);
-        }
-      }
-}*/
+}
 
 
 

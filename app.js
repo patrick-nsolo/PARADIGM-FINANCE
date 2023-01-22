@@ -20,16 +20,24 @@ function calculatePayment() {
   }
     
 //PROFILE PAGE SCROLL
-let currentProfile = 0;
-let profiles = document.getElementsByClassName("directors");
+let slideIndex = 0;
+showSlides();
 
-function nextProfile() {
-    profiles[currentProfile].style.display = "none";
-    currentProfile = (currentProfile + 1) % profiles.length;
-    profiles[currentProfile].style.display = "block";
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("slides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
-
-setInterval(nextProfile, 2000);
 
 
 
