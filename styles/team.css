@@ -219,6 +219,17 @@ main div h2{
     margin-top: 50px;
 }
 
+.card-holder-section{
+    display: inline-block;
+    
+}
+.wrapper{
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    color:var(--red)
+}
+
 
 
 
