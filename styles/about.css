@@ -16,6 +16,9 @@ img{
     --black:hsl(0, 0%, 12%);
     --grey:hsl(0, 0%, 38%);
     --white:hsl(0, 0%, 100%);
+    --green:rgb(7, 181, 39);
+    --blue:rgb(29, 14, 126);
+    --lightblue:rgb(0, 213, 255);
 }
 /*Top Navigation Styling Starts*/
 .head{
@@ -147,11 +150,12 @@ main div h2{
 .grey-line{
     background-color: var(--grey);
 }
+.green-line{
+    background-color: var(--green);
+}
 .black-line{
     background-color: var(--black);
 }
-
-
 footer{
     text-align: center;
     height: 50px;
@@ -204,9 +208,8 @@ footer{
         justify-content: space-evenly;    
     }
     footer{
-        margin-top: 100px;
+        margin-top: 50px;
     }
-    
 }
 
 

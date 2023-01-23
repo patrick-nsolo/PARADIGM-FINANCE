@@ -16,6 +16,9 @@ img{
     --black:hsl(0, 0%, 12%);
     --grey:hsl(0, 0%, 38%);
     --white:hsl(0, 0%, 100%);
+    --green:rgb(7, 181, 39);
+    --blue:rgb(29, 14, 126);
+    --lightblue:rgb(0, 213, 255);
 }
 /*NAVIGATION STYLING STARTS HERE*/ /*ALL PAGES*/
 .head{
@@ -52,9 +55,33 @@ img{
 }
 .philosophy-text{
     padding: 0 200px;
-    text-align: center;
-    margin-top: 100px;
+    text-align: justify;
+    margin-top: 50px;
     font-size: 1.5rem;
+}
+.slide-in-left{
+    animation: slide-in-from-left 1s ease-in-out forwards;
+    color: var(--red);
+}
+@keyframes slide-in-from-left{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+.slide-in-right{
+    animation: slide-in-from-right 1s ease-in-out forwards;
+    margin-top: 20px;
+}
+@keyframes slide-in-from-right{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
 }
 /*NAVIGATION STYLING STARTS HERE*/ /*ALL PAGES*/
 /*NAVIGATION STYLING ENDS HERE*/
