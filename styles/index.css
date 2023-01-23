@@ -79,7 +79,7 @@ h1{
     font-size: 1rem;
 }
 .card-holder-section{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .card-holder-section a{
     text-decoration: none;
@@ -151,4 +151,34 @@ footer{
     margin-top: 50px;
     text-align: center;
     color: var(--red);   
+}
+
+/*MEDIA DESKTOP*/
+@media screen and (min-width: 1000px){
+        .wrapper{
+        text-align: left;
+        margin: 70px 0 0 50px ;
+    }
+        .hero-image{
+        margin-top: 50px;
+    }
+        .lady-image{
+        position:relative;
+    }
+        .card-holder-section{
+        display:flex;
+        justify-content: space-evenly;    
+    }
+        .card{
+        margin-top: auto;
+        text-align: center;     
+    }
+    footer{
+        text-align: center;
+        height: 50px;
+        padding: 15px;
+        background: var(--grey);
+        color:var(--white);
+        
+    }
 }
