@@ -121,3 +121,49 @@ footer{
         
     }
 }
+
+/*NAVIGATION STYLING STARTS HERE*/ /*ALL RED PAGES*/
+.head{
+    display: flex;
+    justify-content: end;
+    background: var(--red);
+    padding: 10px;
+}
+.top-nav{
+    background: var(--white);
+    border-radius: 5px;   
+}
+.nav-link{
+    background: var(--white);
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    width: 250px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+    margin: -50px 0 0 20px;
+    text-align: center;
+    padding: 5px;
+}
+.nav-link:hover{
+    transform: scale(1.05);
+}
+.nav-link p {
+    margin-top: 30px;
+    font-size: 25px;
+    color:var(--grey);
+    text-transform:capitalize;
+}
+.nav-link a{
+    text-decoration: none;
+}
+.philosophy-text{
+    padding: 0 200px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 600px){
+    .nav-link{
+        margin-top: 10px;
+    }
+}
+/*NAVIGATION STYLING STARTS HERE*/ /*ALL PAGES*/
