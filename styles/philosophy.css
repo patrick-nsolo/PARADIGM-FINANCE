@@ -26,8 +26,7 @@ img{
 }
 .top-nav{
     background: var(--white);
-    border-radius: 5px;
-   
+    border-radius: 5px;   
 }
 .nav-link{
     background: var(--white);
@@ -38,7 +37,6 @@ img{
     margin: -50px 0 0 20px;
     text-align: center;
     padding: 5px;
-
 }
 .nav-link:hover{
     transform: scale(1.05);
@@ -48,6 +46,15 @@ img{
     font-size: 25px;
     color:var(--grey);
     text-transform:capitalize;
+}
+.nav-link a{
+    text-decoration: none;
+}
+.philosophy-text{
+    padding: 0 200px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.5rem;
 }
 
 /*NAVIGATION STYLING ENDS HERE*/
