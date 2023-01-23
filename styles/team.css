@@ -218,7 +218,7 @@ main div h2{
 .mildred,.kayode,.chukwumampam,.giovanni,.femi,.ekeoma,.anyanwu{
     margin-top: 50px;
 }
-
+/*CARD STYLING HERE*/
 .card-holder-section{
     display: inline-block;
     
@@ -229,7 +229,39 @@ main div h2{
     margin-top: 200px;
     color:var(--red)
 }
-
+.card{
+    background: var(--white);
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    border-radius: 10px 10px 0 0;
+    width: 250px;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card p {
+    margin-top: 30px;
+    font-size: 25px;
+    color:var(--grey);
+    text-transform:capitalize;
+}
+.contact-card-info p{
+    color:var(--red);
+}
+.card-info .bx{
+    margin-top: 15px;  
+    transition: all 0.5s ease-in-out;
+    color: var(--red);
+}
+.card-info .bx:hover{
+    transform: scale(1.08);
+    
+}
+.line{
+    height: 7px;
+    border-radius: 10px 10px 0 0;
+}
 
 
 
