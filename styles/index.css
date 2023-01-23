@@ -38,7 +38,6 @@ img{
     display: inline-block; 
     margin-top: 50px;  
 }
-
 .card-holder-section a{
     text-decoration: none;
 }
@@ -72,9 +71,6 @@ img{
 .grey-line{
     background-color: var(--grey);
 }
-.green-line{
-    background-color: var(--green);
-}
 .blue-line{
     background-color: var(--blue);
 }
@@ -95,7 +91,7 @@ footer{
     background: var(--grey);
     color:var(--white);  
 }
-
+/*Landing page Styling ends*/
 /*MEDIA DESKTOP*/
 @media screen and (min-width: 1200px){
         .wrapper{
