@@ -30,15 +30,6 @@ html{
     width: 100%;
     height: auto;
 }
-h1{
-    font-size: 3rem;
-    animation:fadeIn 3s;
-    color:var(--red);
-}
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
 .hero-content{
     display: inline-block;
 }
@@ -60,23 +51,6 @@ h1{
     margin: auto;
     text-align: center;
     color:var(--red)
-}
-.apply-btn{
-    margin-top: 20px;
-    background-color: var(--red);
-    border: 0;
-    height:50px;
-    width:250px;
-    color: var(--white);
-    transition: all 0.5s ease-in-out;
-}
-.apply-btn:hover{
-    padding-left: 25px;
-    padding-right: 10px;
-}
-.btn-text{
-    margin-right: 20px;
-    font-size: 1rem;
 }
 .card-holder-section{
     margin-top: 120px;
@@ -104,15 +78,6 @@ h1{
 .contact-card-info p{
     color:var(--red);
 }
-.card-info .bx{
-    margin-top: 15px;  
-    transition: all 0.5s ease-in-out;
-    color: var(--red);
-}
-.card-info .bx:hover{
-    transform: scale(1.08);
-    
-}
 .line{
     height: 7px;
     border-radius: 10px 10px 0 0;
@@ -135,16 +100,7 @@ h1{
 .lightblue-line{
     background-color: var(--lightblue);
 }
-.history-card{
-    margin-top: 30px;
-}
-.philosophy-card{
-    margin-top: 30px;
-}
-.corporate-card{
-    margin-top: 30px;
-}
-.contact-card{
+.card{
     margin-top: 30px;
 }
 footer{
