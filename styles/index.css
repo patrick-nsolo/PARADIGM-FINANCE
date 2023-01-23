@@ -71,6 +71,9 @@ img{
 .grey-line{
     background-color: var(--grey);
 }
+.green-line{
+    background-color: var(--green);
+}
 .blue-line{
     background-color: var(--blue);
 }
@@ -157,13 +160,47 @@ footer{
 }
 .philosophy-text{
     padding: 0 200px;
-    text-align: center;
+    text-align: justify;
     margin-top: 100px;
     font-size: 1.5rem;
 }
+
 @media screen and (max-width: 600px){
     .nav-link{
         margin-top: 10px;
     }
+    .slide-in-left ,.slide-in-right{
+        text-align: center;
+        margin: auto;
+        font-size: 1rem;
+        width: 100px;
+        
+    }
 }
 /*NAVIGATION STYLING STARTS HERE*/ /*ALL PAGES*/
+/*ALL PAGE TRANSITIONS STARTS*/
+.slide-in-left{
+    animation: slide-in-from-left 1s ease-in-out forwards;
+    color: var(--red);
+}
+@keyframes slide-in-from-left{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+.slide-in-right{
+    animation: slide-in-from-right 1s ease-in-out forwards;
+    margin-top: 20px;
+}
+@keyframes slide-in-from-right{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+/*ALL PAGE TRANSITIONS ENDS*/
