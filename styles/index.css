@@ -23,9 +23,7 @@ img{
 html{
     width: 100%;
     height: auto;
-
 }
-
 h1{
     font-size: 3rem;
     animation:fadeIn 3s;
@@ -44,20 +42,17 @@ h1{
 .hero-text{
     color:var(--red);
     font-size: 2rem;
-    display:none;
-    
+    display:none;   
 }
 .frontpage_info_highlight{
     color:var(--red);
 }
 .card-holder-section{
-    display: inline-block;
-    
+    display: inline-block;   
 }
 .wrapper{
     margin: auto;
     text-align: center;
-    margin-top: 200px;
     color:var(--red)
 }
 .apply-btn{
@@ -76,6 +71,9 @@ h1{
 .btn-text{
     margin-right: 20px;
     font-size: 1rem;
+}
+.card-holder-section{
+    margin-top: 150px;
 }
 .card-holder-section a{
     text-decoration: none;
@@ -143,29 +141,8 @@ h1{
 .contact-card{
     margin-top: 30px;
 }
-.media-bar{
-    margin-top: 35px;
-}
-.media{
-    display: inline-flex;
-}
-.media li{
-    list-style: none;
-}
-.media li a{
-    list-style: none;
-    color: var(--red);
-}
-.media .bx{
-    transition: all 0.5s ease-in-out;
-
-}
-.media .bx:hover{
-    transform: scale(1.2);   
-}
 footer{
     margin-top: 50px;
     text-align: center;
-    color: var(--red);
-    
+    color: var(--red);   
 }
