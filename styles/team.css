@@ -296,13 +296,38 @@ main div h2{
     .pair{
         display: flex;
         justify-content: space-evenly;
+        margin-top: 100px;
     }
     .profile{
         width: 400px;
     }
     .chairman{
         margin-top: 50px;
+        margin-left:-100px;
     }
+    .mildred{
+        margin-right: -100px;
+    }
+    .kayode{
+        margin-left: -150px;
+        
+    }
+    .chukwumampam{
+        margin-right: -180px;
+    }
+    .team{
+        margin-top: 100px;
+    }
+    .giovanni{
+        margin-left: -180px;
+    }
+    .femi{
+        margin-right: -150px;
+    }
+    .ekeoma{
+        margin-left:-50px;
+    }
+    
 }
 
 
