@@ -30,28 +30,18 @@ html{
     width: 100%;
     height: auto;
 }
-.hero-content{
-    display: inline-block;
-}
 .hero-image{
     margin-top: 50px;
-}
-.hero-text{
-    color:var(--red);
-    font-size: 2rem;
-    display:none;   
-}
-.frontpage_info_highlight{
-    color:var(--red);
-}
-.card-holder-section{
-    display: inline-block;   
 }
 .wrapper{
     margin: auto;
     text-align: center;
     color:var(--red)
 }
+.card-holder-section{
+    display: inline-block;   
+}
+
 .card-holder-section{
     margin-top: 120px;
 }
