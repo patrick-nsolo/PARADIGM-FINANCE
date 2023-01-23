@@ -32,15 +32,22 @@ img{
 .nav-link{
     background: var(--white);
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
-    border-radius: 10px 10px 0 0;
     width: 250px;
     height: 100px;
     transition: all 0.5s ease-in-out;
-    margin-top: 50px;
+    margin: -50px 0 0 20px;
+    text-align: center;
+    padding: 5px;
 
 }
 .nav-link:hover{
     transform: scale(1.05);
+}
+.nav-link p {
+    margin-top: 30px;
+    font-size: 25px;
+    color:var(--grey);
+    text-transform:capitalize;
 }
 
 /*NAVIGATION STYLING ENDS HERE*/
