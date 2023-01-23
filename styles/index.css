@@ -20,6 +20,12 @@ img{
     --blue:rgb(29, 14, 126);
     --lightblue:rgb(0, 213, 255);
 }
+/*Top Navigation Styling Starts*/
+.head{
+    display: flex;
+    justify-content: end;
+}
+/*Top Navigation Styling ends*/
 html{
     width: 100%;
     height: auto;
