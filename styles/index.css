@@ -122,9 +122,11 @@ h1{
 .green-line{
     background-color: var(--green);
 }
-5
 .blue-line{
     background-color: var(--blue);
+}
+.black-line{
+    background-color: var(--black);
 }
 .lightblue-line{
     background-color: var(--lightblue);
