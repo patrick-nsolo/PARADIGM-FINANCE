@@ -26,25 +26,19 @@ img{
     justify-content: end;
 }
 /*Top Navigation Styling ends*/
-html{
-    width: 100%;
-    height: auto;
-}
+/*Landing page Styling starts*/
 .hero-image{
     margin-top: 50px;
 }
 .wrapper{
     margin: auto;
     text-align: center;
-    color:var(--red)
 }
 .card-holder-section{
-    display: inline-block;   
+    display: inline-block; 
+    margin-top: 50px;  
 }
 
-.card-holder-section{
-    margin-top: 120px;
-}
 .card-holder-section a{
     text-decoration: none;
 }
