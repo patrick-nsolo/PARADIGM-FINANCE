@@ -19,12 +19,12 @@ img{
     --blue:rgb(29, 14, 126);
     --lightblue:rgb(0, 213, 255);
 }
-/*Top Navigation Styling Starts*/
+/*Top Navigation landing page Styling Starts*/
 .landing-head{
     display: flex;
     justify-content: end;
 }
-/*Top Navigation Styling ends*/
+/*Top Navigation landing page Styling Starts*/
 /*Landing page Styling starts*/
 .hero-image{
     margin-top: 50px;
@@ -177,7 +177,7 @@ img{
     }
     
 }
-/*NAVIGATION STYLING STARTS HERE*/ /*ALL PAGES*/
+/*NAVIGATION STYLING STARTS HERE*/ /*ALL RED PAGES*/
 /*ALL PAGE TRANSITIONS STARTS*/
 .slide-in-left{
     animation: slide-in-from-left 1s ease-in-out forwards;
