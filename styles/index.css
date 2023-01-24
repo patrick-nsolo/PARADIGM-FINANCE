@@ -175,7 +175,9 @@ img{
     #vision, #mission{
         margin-top: 20px;
     }
-    
+    footer{
+        font-size: 0.8rem;
+    }
 }
 /*NAVIGATION STYLING STARTS HERE*/ /*ALL RED PAGES*/
 /*ALL PAGE TRANSITIONS STARTS*/
