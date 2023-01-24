@@ -9,7 +9,6 @@
 img{
     max-inline-size: 100%;
     block-size: auto;/*means aspect ratio of images, will remain the same in any screen size*/ 
-
 }
 :root{
     --red:hsl(10, 86%, 49%);
@@ -21,7 +20,7 @@ img{
     --lightblue:rgb(0, 213, 255);
 }
 /*Top Navigation Styling Starts*/
-.head{
+.landing-head{
     display: flex;
     justify-content: end;
 }
@@ -86,14 +85,6 @@ img{
 .card{
     margin-top: 30px;
 }
-footer{
-    margin-top: 50px;
-    text-align: center;
-    height: 50px;
-    padding: 15px;
-    background: var(--grey);
-    color:var(--white);  
-}
 /*Landing page Styling ends*/
 /*MEDIA DESKTOP*/
 @media screen and (min-width: 1200px){
@@ -120,8 +111,13 @@ footer{
         height: 50px;
         padding: 15px;
         background: var(--grey);
-        color:var(--white);
-        
+        color:var(--white);    
+    }
+    .about-wrapper{
+        margin-top: 300px;
+    }
+    .history-text{
+        margin-top: 0;
     }
 }
 
@@ -159,7 +155,7 @@ footer{
     text-decoration: none;
 }
 .philosophy-text{
-    padding: 0 200px;
+    padding:0 200px;
     text-align: justify;
     margin-top: 100px;
     font-size: 1.5rem;
@@ -169,13 +165,17 @@ footer{
     .nav-link{
         margin-top: 10px;
     }
-    .slide-in-left ,.slide-in-right{
-        text-align: center;
-        margin: auto;
-        font-size: 1rem;
-        width: 100px;
-        
+    .philosophy-text{
+        padding: 50px;
+        margin-top: 0;
     }
+    #core-values{
+        margin-top: 0;
+    }
+    #vision, #mission{
+        margin-top: 20px;
+    }
+    
 }
 /*NAVIGATION STYLING STARTS HERE*/ /*ALL PAGES*/
 /*ALL PAGE TRANSITIONS STARTS*/
@@ -204,3 +204,19 @@ footer{
     }
 }
 /*ALL PAGE TRANSITIONS ENDS*/
+#vision, #mission{
+    margin-top: 20px;
+}
+#core-values h3{
+    color:var(--red);
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+    padding: 15px;
+    background: var(--grey);
+    color:var(--white);  
+}
+
+
