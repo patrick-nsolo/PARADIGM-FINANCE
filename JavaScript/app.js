@@ -1,13 +1,42 @@
-//TEAM PAGE 
-function myFunction(id) {
-    var dropdown = document.getElementById(id);
-    if (dropdown.style.display === "block"){
-        dropdown.style.display = "none";
+//TEAM PAGE button toggle profile
+function toggleProfile(id) {
+    var profile = document.getElementById(id);
+    if (profile.style.display === "none"){
+        profile.style.display = "block";
     }else {
-        dropdown.style.display = "block";
+        profile.style.display = "none";
     }
-
 }
+// Assign the toggleProfile function to the onclick event for each button
+document.getElementById("chairman").onclick = function(){toggleProfile("chairman");};
+document.getElementById("kayode").onclick = function(){toggleProfile("kayode");};
+
+
+
+
+
+//PROFILE PAGE SCROLL
+var slidePosition = 1;
+SlideShow (slidePosition);
+//forward/back controls
+function plusSlides(n){
+  SlideShow (slidePosition += n);
+}
+//profile controls
+function currentSlide(n){
+  SlideShow(slidePosition = n);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 //LOAN FORM 
 function calculatePayment() {
@@ -19,25 +48,8 @@ function calculatePayment() {
     document.getElementById("monthly-payment").value = monthlyPayment.toFixed(2);
   }
     
-//PROFILE PAGE SCROLL
-let slideIndex = 0;
-showSlides();
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("slides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
-}
+
 
 
 
