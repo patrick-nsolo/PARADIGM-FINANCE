@@ -227,6 +227,11 @@ footer{
     position: relative;
     margin:auto;
 }
+.profiles-container{
+    display: none;
+    animation-name:slideInFromRight ;
+    animation-fill-mode: forwards;
+}
 .info{
     display: block;
     text-align: center;
@@ -284,6 +289,15 @@ footer{
     background-color: var(--red);
     color: var(--white);
 }
+@keyframes slideInFromRight {
+    from {transform: translateX(0%);}
+    to{transform: translateX(100%);}   
+}
+@keyframes slideInFromLeft {
+    from {transform: translateX(100%);}
+    to{transform: translateX(0%);}   
+}
+
 /*team page desktop styling*/
 @media screen and (min-width: 1200px){
     .info{
