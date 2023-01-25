@@ -221,4 +221,40 @@ footer{
     color:var(--white);  
 }
 
+/*Team Page Profile styling starts */
+.profiles-container{
+    max-width: 1000px;
+    position: relative;
+    margin:auto;
+}
+.profile-container{
+    display: inline-block;
+    text-align: center;
+    displa:none;
+}
+.profile-image img{
+    height:200px;
+    border-radius: 10px;   
+}
+.profile h2{
+    color: var(--red);
+}
+.btn{
+    width: 100px;
+    height:30px;
+    background: var(--red);
+    border: 0;
+    color: var(--white);
+    transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+    font-size:0.9rem;
+    transform: scaleX(1.0);
+}
+
+
+
+
+
+/*Team Page Profile styling ending */
 
