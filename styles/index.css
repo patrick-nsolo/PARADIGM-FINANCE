@@ -226,11 +226,12 @@ footer{
     max-width: 1000px;
     position: relative;
     margin:auto;
+    overflow: hidden;
+    
 }
-.profiles-container{
-    display: none;
-    animation-name:slideInFromRight ;
-    animation-fill-mode: forwards;
+.profile-container{
+    position: relative;
+
 }
 .info{
     display: block;
@@ -268,11 +269,11 @@ footer{
     color: var(--white);
     display: none;
 }
-.back, .forward{
+#back, #forward{
     cursor:pointer;
     position: absolute;
     width: auto;
-    top: 28%;
+    top: 0%;
     font-size: 50px;
     font-weight: bold;
     padding: 17px;
@@ -281,21 +282,13 @@ footer{
     border-radius:  5px 0 0 5px;
     user-select: none;
 }
-.forward{
+#forward{
     right:0;
     border-radius: 0 4px 4px 0;
 }
-.back:hover, .forward:hover{
+#back:hover, #forward:hover{
     background-color: var(--red);
     color: var(--white);
-}
-@keyframes slideInFromRight {
-    from {transform: translateX(0%);}
-    to{transform: translateX(100%);}   
-}
-@keyframes slideInFromLeft {
-    from {transform: translateX(100%);}
-    to{transform: translateX(0%);}   
 }
 
 /*team page desktop styling*/

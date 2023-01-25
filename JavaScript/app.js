@@ -12,7 +12,17 @@ document.getElementById("chairman").onclick = function(){toggleProfile("chairman
 document.getElementById("kayode").onclick = function(){toggleProfile("kayode");};
 
 
+//initialize the carousel
+$('.profiles-container').carousel({
+  duration:400,
+  visible:1,
+  next: '#back',
+  prev: '#forward'
+});
 
+function toggleProfile(id){
+  $('#' + id).toggle();
+}
 
 
 

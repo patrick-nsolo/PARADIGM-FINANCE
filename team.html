@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="/styles/index.css">
     <link rel="stylesheet" href="/boxicons-2.1.4/css/boxicons.min.css">
     <script src="/JavaScript/app.js"></script>
+    <script src="/JavaScript/jquery-3.6.3.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <title>Paradigm Finance</title>
 </head>
 <body>
@@ -79,7 +81,7 @@
             <div class="profile-container">
                 <div class="info">
                     <div class="profile-image">
-                        <img src="/images/Kayode-Ayeni.png" alt="kayode-image">
+                        <img src="/images/Ifeyinwa-Amuchie.png" alt="mildred-image">
                     </div>
                     <div class="profile">
                         <h2>Mildred Ifeyinwa AMUCHIE</h2>
@@ -89,7 +91,7 @@
                 </div>
                 <div id="mildred" class="profile-details">
                     <p>
-                        Midred is a customer service expert with experience in leading world class teams in the 
+                        Mildred is a customer service expert with experience in leading world class teams in the 
                         Financial Services Industry to success. She has a degree in English and Masters in 
                         International Law and Diplomacy with various other professional qualifications on designs 
                         and applied arts from recognized institutions of learning. She is the Founder and Director 
@@ -97,10 +99,36 @@
                     </p>
                 </div>
             </div>
+            <div class="profile-container">
+                <div class="info">
+                    <div class="profile-image">
+                        <img src="/images/Chukwumankpam-Picture.png" alt="chukwumankpam-image">
+                    </div>
+                    <div class="profile">
+                        <h2>Mildred Ifeyinwa AMUCHIE</h2>
+                        <h3>Non-Executive Director</h3>
+                        <button id="chukwumankpam-btn" onclick="toggleProfile('chukwumankpam')" class="btn">More</button>
+                    </div>
+                </div>
+                <div id="chukwumankpam" class="profile-details">
+                    <p>
+                        Chukwumankpam A. Onwunali is a consummate professional with a proven background in marketing, 
+                        brand management, finance, financial controls, commercial advisory services, procurement and 
+                        personnel management across multiple business verticals and especially in the Oil and Gas industry. 
+                        He has led complex oil & gas divestments, acquisitions, equipment & facilities leasing.
+                        He has led multiple teams successfully over the course of his career with Nigerian Breweries Plc, 
+                        Shell Petroleum Development Company, and Aiteo Eastern (exploration & production) Company Limited 
+                        as lead commercial, a position he holds till date. He is a graduate of Economics, an associate of 
+                        the Chartered Institute of Accountants of Nigeria (ICAN); Chartered Institute of Investment Analysts (UK); 
+                        Chartered Institute of Taxation of Nigeria; Association of International Petroleum Negotiators, 
+                        Nigerian Institute of Management; Nigerian Gas Association and Society of Petroleum Engineers.
+                    </p>
+                </div>
+            </div>
                 
                 <!--profile backward and forward buttons-->
-                <a class="back" onclick="plusslides(-1)">&#10094;</a>
-                <a class="forward" onclick="plusslides(1)">&#10095;</a>
+                <a id="back">&#10094;</a>
+                <a id="forward">&#10095;</a>
             
 
         </div>
