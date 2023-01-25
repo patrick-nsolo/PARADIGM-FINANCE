@@ -227,9 +227,6 @@ footer{
     position: relative;
     margin:auto;
 }
-.profile-container{
-    displa:none;
-}
 .info{
     display: block;
     text-align: center;

@@ -16,16 +16,23 @@ document.getElementById("kayode").onclick = function(){toggleProfile("kayode");}
 
 
 //PROFILE PAGE SCROLL
-var slidePosition = 1;
-SlideShow (slidePosition);
-//forward/back controls
-function plusSlides(n){
-  SlideShow (slidePosition += n);
+var currentProfile = 0;
+var profileContainers = document.getElementsByClassName("profile-container");
+
+function showNextProfile(){
+  profileContainers[currentProfile].style.animation = "slideOutToLeft 0.5s ease-in-out";
+  setTimeout(function(){
+    profileContainers[currentProfile].style.display = "none";
+    currentProfile = (currentProfile + 1) % profileContainers.length;
+    profileContainers[currentProfile].style.display = "block";
+    profileContainers[currentProfile].style.animation = "slideInFromRight 0.5s ease-in-out";
+  },500);
 }
-//profile controls
-function currentSlide(n){
-  SlideShow(slidePosition = n);
-}
+
+//Show the first profile container
+profileContainers[currentProfile].style.display = "block";
+//interval to show next profile every 5 secs
+var intervalId = setInterval(showNextProfile, 5000);
 
 
 
