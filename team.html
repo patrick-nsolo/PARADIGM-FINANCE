@@ -29,14 +29,14 @@
         </div>
     </header>
     <main>
-        <div>
-           <h1>OUR TEAM</h1> 
-           <p>Our Team is made up of astute professionals with requisite experience, a penchant for digital innovation, 
-            and expertise to pursue excellent service delivery</p>
+        <div class="page-intro">
+           <h1 class="slide-in-left">OUR TEAM</h1> 
+           <p class="slide-in-right">Our Team is made up of astute professionals with requisite experience, 
+            a penchant for digital innovation, and expertise to pursue excellent service delivery</p>
         </div>
-        <div><h2>Board of Directors</h2></div>
+        <div class="team-title"><h2 class="slide-in-left">Board of Directors</h2></div>
         <div class="profiles-container" id="container">
-            <div class="profile-container" id="profile-container">
+            <div class="profile-container chairman" id="profile-container">
                 <div class="info">
                     <div class="profile-image">
                         <img src="/images/Chairman-Picture.png" alt="chairman-image">
@@ -130,9 +130,11 @@
                         Nigerian Institute of Management; Nigerian Gas Association and Society of Petroleum Engineers.
                     </p>
                 </div>
-            </div> 
-            <div><h2>Management</h2></div>
-            <div class="profile-container">
+            </div>
+        </div> 
+        <div class="team-title management slide-in-right"><h2>Management</h2></div>
+        <div class="profiles-container" >
+            <div class="profile-container giovanni">
                 <div class="info">
                     <div class="profile-image giovanni-image">
                         <img src="/images/Jo-Mario.png" alt="giovanni-image">
@@ -238,12 +240,9 @@
                     </p>
                 </div>
             </div>
-                <!--profile backward and forward buttons
-                <button onClick="slide('next')" id="back">&#10094;</button>
-                <button onClick="slide('prev')" id="forward">&#10095;</button>-->
         </div>
     </main>
-    <section class="about-wrapper wrapper">
+    <section class="about-wrapper wrapper team-wrapper">
         <div class="card-holder-section">
             <a href="team.html"><div class= "card team-card">
                 <div class="line red-line"></div>

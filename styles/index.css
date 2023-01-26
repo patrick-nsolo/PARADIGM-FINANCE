@@ -265,28 +265,28 @@ footer{
     color: var(--white);
     display: none;
 }
-#back, #forward{
-    cursor:pointer;
-    position: absolute;
-    width: auto;
-    top: 30%;
-    font-size: 50px;
-    font-weight: bold;
-    padding: 50px;
-    color:var(--red);
-    transition: 0.4s ease;
-    border-radius:  5px 0 0 5px;
-    user-select: none;
+.page-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 40px;
 }
-#forward{
-    right:0;
-    border-radius: 0 4px 4px 0;
+.chairman{
+    margin-top: 20px;
 }
-#back:hover, #forward:hover{
-    background-color: var(--red);
-    color: var(--white);
+.team-title{
+    margin-top: 50px;
+    font-size: 1.5rem;text-align: center;
+    color: var(--red);
 }
-
+.management{
+    margin-top: 350px;
+}
+.giovanni{
+    margin-top: 20px;
+}
+.team-wrapper{
+    margin-top: 60px;
+}
 /*team page desktop styling*/
 @media screen and (min-width: 1200px){
     .info{
@@ -343,6 +343,9 @@ footer{
     }
     .emeka-profile{
         margin-right: 30px;
+    }
+    .management{
+        margin-top: 150px ;
     }
     
     

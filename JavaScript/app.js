@@ -15,15 +15,7 @@ document.getElementById("chukwumankpam").onclick = function(){toggleProfile("chu
 
 
 //initialize the carousel
-const slides = document.querySelectorAll(".profile-container");
-    const translateAmount = 100;
-    let translate = 0;
-slides = (direction) => {
-  direction === "next" ? translate -= translateAmount : translate += translateAmount;
-  slides.forEach(
-    slides => (slides.style.transform = 'translateX(${translate}%)')
-  );
-}
+
 
 
 
