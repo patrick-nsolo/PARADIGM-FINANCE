@@ -287,6 +287,9 @@ footer{
 .team-wrapper{
     margin-top: 60px;
 }
+.okeleye{
+    margin-top: 270px;
+}
 /*team page desktop styling*/
 @media screen and (min-width: 1200px){
     .info{
