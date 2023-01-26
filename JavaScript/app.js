@@ -3,26 +3,28 @@ function toggleProfile(id) {
     var profile = document.getElementById(id);
     if (profile.style.display === "none"){
         profile.style.display = "block";
-    }else {
+    } else {
         profile.style.display = "none";
     }
 }
 // Assign the toggleProfile function to the onclick event for each button
 document.getElementById("chairman").onclick = function(){toggleProfile("chairman");};
 document.getElementById("kayode").onclick = function(){toggleProfile("kayode");};
+document.getElementById("mildred").onclick = function(){toggleProfile("mildred");};
+document.getElementById("chukwumankpam").onclick = function(){toggleProfile("chukwumankpam");};
 
 
 //initialize the carousel
-$('.profiles-container').carousel({
-  duration:400,
-  visible:1,
-  next: '#back',
-  prev: '#forward'
-});
-
-function toggleProfile(id){
-  $('#' + id).toggle();
+const slides = document.querySelectorAll(".profile-container");
+    const translateAmount = 100;
+    let translate = 0;
+slides = (direction) => {
+  direction === "next" ? translate -= translateAmount : translate += translateAmount;
+  slides.forEach(
+    slides => (slides.style.transform = 'translateX(${translate}%)')
+  );
 }
+
 
 
 

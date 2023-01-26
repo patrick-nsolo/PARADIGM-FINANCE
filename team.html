@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/boxicons-2.1.4/css/boxicons.min.css">
     <script src="/JavaScript/app.js"></script>
     <script src="/JavaScript/jquery-3.6.3.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    
     <title>Paradigm Finance</title>
 </head>
 <body>
@@ -29,8 +29,8 @@
         </div>
     </header>
     <main>
-        <div class="profiles-container">
-            <div class="profile-container">
+        <div class="profiles-container" id="container">
+            <div class="profile-container" id="profile-container">
                 <div class="info">
                     <div class="profile-image">
                         <img src="/images/Chairman-Picture.png" alt="chairman-image">
@@ -105,7 +105,7 @@
                         <img src="/images/Chukwumankpam-Picture.png" alt="chukwumankpam-image">
                     </div>
                     <div class="profile">
-                        <h2>Mildred Ifeyinwa AMUCHIE</h2>
+                        <h2>Chukwumankpam A. ONWUNALI</h2>
                         <h3>Non-Executive Director</h3>
                         <button id="chukwumankpam-btn" onclick="toggleProfile('chukwumankpam')" class="btn">More</button>
                     </div>
@@ -124,15 +124,97 @@
                         Nigerian Institute of Management; Nigerian Gas Association and Society of Petroleum Engineers.
                     </p>
                 </div>
+            </div> 
+            <div class="profile-container">
+                <div class="info">
+                    <div class="profile-image">
+                        <img src="/images/Jo-Mario.png" alt="giovanni-image">
+                    </div>
+                    <div class="profile">
+                        <h2>Jo'mario GIOVANNI</h2>
+                        <h3>Director, Business</h3>
+                        <button id="giovanni-btn" onclick="toggleProfile('giovanni')" class="btn">More</button>
+                    </div>
+                </div>
+                <div id="giovanni" class="profile-details">
+                    <p>
+                        Giovanni has two decades of experience in Financial Management and International Trade and Negotiation. 
+                        He has worked across several banks in Nigeria leading and transforming multiples branches from losses 
+                        into huge and sustainable profit taking levels. With his depth in Credit Risk Management, Sales, 
+                        Transaction Structuring, Business Development and Organisational Development, he has helped to close 
+                        several huge and profitable transactions and steadied a number of businesses. He worked across Oceanic Bank, 
+                        First City Monument Bank and Union Bank of Nigeria before joining Paradigm Finance Limited. 
+                        Giovanni holds a first degree with distinction in Office Technology and Management, Masters in Financial Management, 
+                        Certificate in International Trade and Negotiation, and trainings in Designing Organisational Structure with 
+                        Harvard Business School. 
+                    </p>
+                </div>
             </div>
-                
-                <!--profile backward and forward buttons-->
-                <a id="back">&#10094;</a>
-                <a id="forward">&#10095;</a>
-            
-
+            <div class="profile-container">
+                <div class="info">
+                    <div class="profile-image">
+                        <img src="/images/EKEOMA-NWACHUKWU.png" alt="ekeoma-image">
+                    </div>
+                    <div class="profile">
+                        <h2>Ekeoma NWACHUKWU</h2>
+                        <h3>People Management</h3>
+                        <button id="ekeoma-btn" onclick="toggleProfile('ekeoma')" class="btn">More</button>
+                    </div>
+                </div>
+                <div id="ekeoma" class="profile-details">
+                    <p>
+                        Ekeoma holds a Bachelor’s degree in Estate Management. She has several years of work 
+                        experience through managing administrative duties, project management and client service 
+                        executive in a variety of environments, working with small and nationwide firms - Luvanex Builds, 
+                        Jide Taiwo and co, Lagos LaidBac Co amongst others. She has certifications in leadership and 
+                        management classes.
+                    </p>
+                </div>
+            </div>
+            <div class="profile-container">
+                <div class="info">
+                    <div class="profile-image">
+                        <img src="/images/femi-accounts.png" alt="femi-image">
+                    </div>
+                    <div class="profile">
+                        <h2>Oluwafemi OYETAYO</h2>
+                        <h3>Finance and Accounts</h3>
+                        <button id="femi-btn" onclick="toggleProfile('femi')" class="btn">More</button>
+                    </div>
+                </div>
+                <div id="femi" class="profile-details">
+                    <p>
+                        Femi is a Member of the Institute of Chartered Accountant of Nigeria. He has managed, 
+                        motivated, Inspired and lead businesses with his outstanding grasp of financial reporting 
+                        systems and years of working in diverse accounting and financial services field with multiple 
+                        companies, a few of which are Elyon Pro Ser vices, Telinno Consulting, and Tsebo Rapid Nigeria.    
+                    </p>
+                </div>
+            </div>
+            <div class="profile-container">
+                <div class="info">
+                    <div class="profile-image">
+                        <img src="/images/emeka.png" alt="emeka-image">
+                    </div>
+                    <div class="profile">
+                        <h2>Emeka ANYANWU</h2>
+                        <h3>Risk Management and Compliance</h3>
+                        <button id="emeka-btn" onclick="toggleProfile('emeka')" class="btn">More</button>
+                    </div>
+                </div>
+                <div id="emeka" class="profile-details">
+                    <p>
+                        Femi is a Member of the Institute of Chartered Accountant of Nigeria. He has managed, 
+                        motivated, Inspired and lead businesses with his outstanding grasp of financial reporting 
+                        systems and years of working in diverse accounting and financial services field with multiple 
+                        companies, a few of which are Elyon Pro Ser vices, Telinno Consulting, and Tsebo Rapid Nigeria.    
+                    </p>
+                </div>
+            </div>
+                <!--profile backward and forward buttons
+                <button onClick="slide('next')" id="back">&#10094;</button>
+                <button onClick="slide('prev')" id="forward">&#10095;</button>-->
         </div>
-
     </main>
     <section class="about-wrapper wrapper">
         <div class="card-holder-section">
