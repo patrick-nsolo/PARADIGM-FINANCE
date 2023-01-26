@@ -305,8 +305,17 @@ footer{
         height: 300px;
         margin-top: 80px;
     }
-    .profile-image img{
-         
+    .kayode-image{
+        margin-left: -10px; 
+    }
+    .kayode-profile{
+        margin-right: 130px;
+    }
+    .mildred-profile{
+        margin-right: 40px;
+    }
+    .chukwumankpam-profile{
+        margin-right: -30px;
     }
     
 }
