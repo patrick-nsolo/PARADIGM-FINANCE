@@ -244,8 +244,8 @@ footer{
     color: var(--red);
 }
 .btn{
-    width: 100px;
-    height:30px;
+    width: 150px;
+    height:50px;
     background: var(--red);
     border: 0;
     color: var(--white);
@@ -253,7 +253,7 @@ footer{
     transition: all 0.5s ease-in-out;
 }
 .btn:hover{
-    font-size:0.9rem;
+    font-size:1rem;
     transform: scaleX(1.0);
 }
 .profile-details{
