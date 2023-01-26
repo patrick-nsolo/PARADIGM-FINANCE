@@ -228,8 +228,7 @@ footer{
 .profile-container{
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
     margin-top: 200px;
-    height: 400px;
-    
+    height: 400px;    
 }
 .info{
     display: block;
@@ -324,19 +323,29 @@ footer{
     .giovanni-profile{
         margin-right: 120px;
     }
+    .okeleye-profile{
+        margin-right: -40px;  
+    }
     .ekeoma-image{
         margin-left: -30px;
     }
     .ekeoma-profile{
-        margin-right: 40px;
+        margin-right: 60px;
     }
     .femi-image{
         margin-left: -30px;
     }
     .femi-profile{
-        margin-right: 100px;
-        
+        margin-right: 120px;  
     }
+    .emeka-image{
+        margin-left: -50px;
+    }
+    .emeka-profile{
+        margin-right: 30px;
+    }
+    
+    
     
 }
 
