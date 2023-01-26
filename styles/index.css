@@ -223,15 +223,12 @@ footer{
 
 /*Team Page Profile styling starts */
 .profiles-container{
-    max-width: 1000px;
-    position: relative;
-    margin:auto;
-    overflow: hidden;
-    
+    display: flex;
+    flex:nowrap;
 }
 .profile-container{
-    position: relative;
-
+    flex: 0 0 100%;
+    width: 100%;
 }
 .info{
     display: block;
@@ -273,10 +270,10 @@ footer{
     cursor:pointer;
     position: absolute;
     width: auto;
-    top: 0%;
+    top: 30%;
     font-size: 50px;
     font-weight: bold;
-    padding: 17px;
+    padding: 50px;
     color:var(--red);
     transition: 0.4s ease;
     border-radius:  5px 0 0 5px;
