@@ -223,37 +223,13 @@ footer{
 
 /*Team Page Profile styling starts */
 .profiles-container{
-    display: flex;
-    flex:nowrap;
-    animation: slideshow 20s infinite;
-    position: relative;
-}
-.profiles-container:hover {
-    animation-play-state: paused;
+    display:block;
+    
 }
 .profile-container{
     flex: 0 0 100%;
     width: 100%;
     transition: transform 1s ease;
-}
-@keyframes slideshow {
-    0%  { left: 0; }
-    5% { left: 0; }
-    10% { left: -100%; }
-    15% { left: -100%; }
-    20% { left: -200%; }
-    25% { left: -200%; }
-    30% { left: -300%; }
-    35% { left: -300%; }
-    40% { left: -400%; }
-    45% { left: -400%; }
-    50% { left: -500%; }
-    55% { left: -500%; }
-    60% { left: -600%; }
-    65% { left: -600%; }
-    70% { left: -700%; }
-    75% { left: -700%; }
-    
 }
 .info{
     display: block;
@@ -262,8 +238,8 @@ footer{
 }
 .profile-image img{
     height:200px;
-    border-radius: 10px;  
-    margin-top: 20px; 
+    border-radius: 100px;  
+    margin-top: 50px; 
 }
 .profile h2{
     color: var(--red);
