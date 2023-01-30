@@ -536,8 +536,8 @@ footer{
     color:var(--black);
     background-color: var(--red);
 }
-.slip-fund-title{
-
+.slip-fund{
+    height:420px;
 }
 
 
