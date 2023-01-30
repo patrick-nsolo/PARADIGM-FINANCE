@@ -424,7 +424,7 @@ footer{
 .objectives{
     background-color: var(--coldblue);
     width: 100%;
-    height: 300px;
+    height: 314px;
     margin-top: -5px;   
 }
 .objectives-head{
@@ -446,5 +446,14 @@ footer{
     padding: 0 100px;
     margin-top: 20px;
     line-height: 20px;
+    font-size: 1rem;
+}
+.objectives-red-box{
+    position: relative;
+    background-color: var(--red);
+    width: 50px;
+    height: 50px;
+    float: right;
+    border-radius: 30px 0 0 0;
 }
 
