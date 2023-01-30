@@ -366,7 +366,7 @@ footer{
     background: var(--white);
     position: absolute;
     z-index: 1;
-    width: 400px;
+    width: 300px;
     height: 200px;
     border-radius: 0 0 100px 0;
 }
