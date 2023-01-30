@@ -14,6 +14,7 @@ img{
     --red:hsl(10, 86%, 49%);
     --black:hsl(0, 0%, 12%);
     --grey:hsl(0, 0%, 38%);
+    --darkgrey:hsl(0, 0%, 24%);
     --white:hsl(0, 0%, 100%);
     --green:rgb(7, 181, 39);
     --blue:rgb(29, 14, 126);
@@ -538,6 +539,33 @@ footer{
 }
 .slip-fund{
     height:420px;
+}
+.edu-trust-fund{
+    display: block;
+    text-align: justify;
+    padding: 0px;
+    color: var(--white);
+}
+.etf-wrap{
+    background: var(--grey);
+    height: 250px;
+    padding: 10px;
+}
+.etf-second-wrap h2{
+    background: var(--red);
+    height: 50px;
+    padding:10px 20px;
+    color: var(--white);
+    text-align: justify;
+}
+.etf-second-wrap{
+    background: var(--darkgrey);
+}
+.etf-second_wrap p{
+    padding: 10px;
+}
+.etf-second_wrap img{
+    text-align: center;
 }
 
 
