@@ -370,6 +370,9 @@ footer{
     height: 150px;
     border-radius: 0 0 100px 0;
 }
+.service-hero{
+    line-height: 18px;
+}
 .service-hero h1{
     color:var(--red);
     font-size: 2rem; 
