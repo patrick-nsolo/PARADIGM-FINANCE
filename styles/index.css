@@ -179,7 +179,7 @@ img{
         font-size: 0.8rem;
     }
 }
-/*NAVIGATION STYLING STARTS HERE*/ /*ALL RED PAGES*/
+/*NAVIGATION STYLING ENDS HERE*/ /*ALL RED PAGES*/
 /*ALL PAGE TRANSITIONS STARTS*/
 .slide-in-left{
     animation: slide-in-from-left 1s ease-in-out forwards;
@@ -352,15 +352,21 @@ footer{
     }
     .management{
         margin-top: 150px ;
-    }
-    
-    
-    
+    }   
 }
-
-
-
-
-
 /*Team Page Profile styling ending */
+/*RETAIL/SERVICE-PAGES STYLING*/
+.service-background img{
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+.service-logo{
+    background: var(--white);
+    position: absolute;
+    z-index: 1;
+    width: 400px;
+    height: 200px;
+    border-radius: 0 0 100px 0;
+}
 
