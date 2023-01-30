@@ -397,7 +397,7 @@ footer{
     text-align: center;
     background: var(--red);
     height: 100px;
-    position: relative;
+    position: absolute;
     max-width: 400px;
     margin-left: 45px;
     border-radius: 30px;
@@ -405,5 +405,10 @@ footer{
 .quote h2{
     padding: 20px;
     color:var(--white)
+}
+.city-scape{
+    margin-top: 50px;
+    background-size: cover;
+    width: 100%;
 }
 
