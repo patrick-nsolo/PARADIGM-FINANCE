@@ -393,6 +393,7 @@ footer{
 }
 .empower-thumbnail{
     margin: 10px 20px;
+
 }
 .quote{
     text-align: center;
@@ -462,5 +463,37 @@ footer{
     height: 50px;
     float: right;
     border-radius: 30px 0 0 0;
+}
+.fund-management-pic{
+    position: relative;
+}
+.fund-management-pic img{
+    width:100%;
+    height: auto;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 270px;
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+    z-index: 1; /* Ensure the overlay is above the image */
+    
+}
+.fund-management-thumbnail{
+    right:0;
+    margin-top: 5px;
+    margin-right: 50px;
+    position: absolute;
+    z-index:2;
+}
+.fm-red-bx{
+    background-color: var(--red);
+    width: 50px;
+    height: 50px;
+    border-radius: 30px 0 0 0;
+    z-index: ;
+
 }
 
