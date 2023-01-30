@@ -563,9 +563,10 @@ footer{
 }
 .etf-second_wrap p{
     padding: 10px;
+    margin-top: 10px;
 }
 .etf-second_wrap img{
-    text-align: center;
+    padding: 35px;
 }
 
 
