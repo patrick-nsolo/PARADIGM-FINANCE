@@ -403,8 +403,8 @@ footer{
     background: var(--red);
     height: 100px;
     position: absolute;
-    max-width: 400px;
-    margin-left: 45px;
+    width: 300px;
+    margin-left: 40px;
     border-radius: 30px;
 }
 .quote h2{
