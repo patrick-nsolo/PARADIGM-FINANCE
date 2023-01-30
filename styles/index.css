@@ -496,7 +496,7 @@ footer{
     width: 50px;
     height: 50px;
     border-radius:  0 30px 0 0;
-    margin-top: -50px;
+    margin-top: -53px;
     position: relative;
     z-index: 1;
 }
@@ -507,7 +507,7 @@ footer{
     text-align: center;
     padding: 30px;
     color: var(--white);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 
