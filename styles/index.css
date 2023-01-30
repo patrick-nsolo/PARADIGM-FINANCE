@@ -531,5 +531,19 @@ footer{
     z-index: 1;
     margin-top: -14px;
 }
+.slip-fund h2{
+    border-radius: 0 0 0 30px;
+
+}
+
+.objectives h2{
+    color: var(--red);
+    background-color: var(--white);
+    width: 200px;
+    height: 40px;
+    
+    text-align: center;
+    padding: 3px;
+}
 
 
