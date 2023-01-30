@@ -448,6 +448,13 @@ footer{
     line-height: 20px;
     font-size: 1rem;
 }
+.objectives-list li{
+    list-style: none;
+}
+.objectives-list li::before{
+    content: "\25B6";
+    color: var(--red);
+}
 .objectives-red-box{
     position: relative;
     background-color: var(--red);
