@@ -568,5 +568,15 @@ footer{
 .etf-second_wrap img{
     padding: 35px;
 }
+.contact-section{
+    background-image:url(/images/footer-bg.webp) ;
+    background-size: cover;
+}
+.contact-head{
+    display: flex;
+    background: var(--white);
+    height: 50px;
+    width: 300px;
+}
 
 
