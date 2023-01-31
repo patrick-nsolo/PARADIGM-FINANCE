@@ -581,7 +581,8 @@ footer{
 }
 .contact-section{
     background-image:url(/images/footer-bg.webp) ;
-    background-size: cover;    
+    background-size: cover;  
+    height:1000px;  
 }
 .contact-head{
     display: flex;
@@ -674,7 +675,10 @@ footer{
         padding: 0 100px;
         margin-top: 20px;
         line-height: 40px;
-        font-size: 2rem;
+        font-size: 1.3rem;
+    }
+    .reserve-funds{
+        height:700px;
     }
     .fm-red-box{
         width:200px;
@@ -688,8 +692,54 @@ footer{
     .rf-text, .rf-benefits, .rf-features{
         font-size: 1.3rem ;
     }
-
-
+    .rf-red-box{
+        width:200px;
+        height:150px;
+        margin-top: 17px;
+    }
+    .icash-red-box{
+        margin-top: 20px;
+    }
+    .slip-fund{
+        height:645px;
+    }
+    .slip-fund h2{
+        border-radius: 0 0 0 60px;
+    }
+    .edu-trust-fund{
+        display: flex;
+        justify-content: space-between;
+    }
+    .etf-wrap{
+        width: 800px;
+        height:600px;
+    }
+    .etf-wrap h3,.etf-wrap ul li, .etf-wrap p{
+        font-size:1.3rem ;
+    }
+    .etf-wrap h3{
+        font-weight: bold;
+    }
+    .etf-wrap ul {
+        margin-top: 20px;
+    }
+    .key-facts{
+        margin-top: 20px;
+    }
+    .key-facts p{
+        margin-top: 10px;
+    }
+    .etf-second-wrap{
+        width: 800px;
+    }
+    .etf-second-wrap h2{
+        text-align: center;
+        font-size: 2rem;
+        padding: 5px;
+    }
+    .etf-second-wrap p{
+        font-size:1.3rem ;
+    }
 
 
 }
