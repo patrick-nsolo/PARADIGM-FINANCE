@@ -397,7 +397,6 @@ footer{
 }
 .empower-thumbnail{
     margin: 10px 20px;
-
 }
 .quote{
     text-align: center;
@@ -601,6 +600,26 @@ footer{
     .service-logo{
         width: 1320px;
         height: 600px;
+        border-radius: 0 0 300px 0;
+    }
+    .service-hero{
+        line-height: 100px;
+    }
+    .service-hero h1{
+        font-size: 8rem; 
+        margin-top: 70px;
+    }
+    .service-hero h2{
+        color:var(--grey);
+        font-size: 5rem;
+    }
+    .hero-thumbnail{
+        width:300px;
+    }
+    .red-box{
+        width: 200px;
+        height: 200px;
+        margin-top: -203px;
     }
 
 
