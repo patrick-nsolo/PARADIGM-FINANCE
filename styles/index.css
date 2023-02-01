@@ -566,13 +566,28 @@ footer{
 .camo-hood img{
     height:350px;
 }
+.merit-fund{
+    hight:1000px
+}
+.merit-fund-info{
+    color: var(--white);
+    margin-top: -100px;
+    padding: 20px;
+}
+.merit-fund-info h3 {
+    color: var(--red);
+    
+}
+.slip-fund{
+    height:500px;
+}
 .slip-fund h2{
     border-radius: 0 0 0 30px;
     color:var(--black);
     background-color: var(--red);
 }
 .sf-red-box{
-    margin-top: 48px;
+    margin-top: 38px;
 }
 .etf-benefits h3, .etf-keyfacts h3{
     color: var(--red);
