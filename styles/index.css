@@ -566,9 +566,10 @@ footer{
 .camo-hood img{
     height:350px;
 }
-.merit-fund{
-    hight:1000px
+.merit_fund{
+    
 }
+
 .merit-fund-info{
     color: var(--white);
     margin-top: -100px;
@@ -823,6 +824,7 @@ footer{
     .merit-fund-info{
         color:var(--white);
         width: 500px;
+        margin-top: 0;
     }
     .merit-fund-info h3 {
         color: var(--red);
