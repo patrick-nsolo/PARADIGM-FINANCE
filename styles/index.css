@@ -630,6 +630,9 @@ footer{
 }
 /*RETAIL AND SERVICES PAGE MEDIA STYLING*/
 @media screen and (min-width: 600px){
+    .paradigm-thumbnail img{
+        width:150px;
+    }
     .service-logo{
         width: 1320px;
         height: 600px;
@@ -698,7 +701,7 @@ footer{
         font-size: 1.3rem;
     }
     .reserve-funds{
-        height:700px;
+        height:750px;
     }
     .fm-red-box{
         width:200px;
@@ -715,16 +718,19 @@ footer{
     .rf-red-box{
         width:200px;
         height:150px;
-        margin-top: 17px;
+        margin-top: 20px;
     }
     .icash-red-box{
         margin-top: 20px;
     }
     .slip-fund{
-        height:645px;
+        height:700px;
     }
     .slip-fund h2{
         border-radius: 0 0 0 60px;
+    }
+    .sf-red-box{
+        margin-top:25px ;
     }
     .edu-trust-fund{
         display: flex;
