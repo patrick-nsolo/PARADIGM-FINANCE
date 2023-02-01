@@ -802,6 +802,9 @@ footer{
         display: flex;
         justify-content: space-around;
     }
+    .camo-hood img{
+        height:750px;
+    }
     .merit-fund-info{
         color:var(--white);
         width: 500px;
