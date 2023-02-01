@@ -526,6 +526,8 @@ footer{
     color: var(--white);
     font-size: 1.2rem;
 }
+
+
 .reserve-funds{
     background-color: var(--coldblue);
     width: 100%;
@@ -553,6 +555,16 @@ footer{
 }
 .icash-red-box{
     margin-top: 5px;
+}
+.slip-fund{
+    height:700px;
+}
+.camo-hood{
+    text-align: center;
+    margin-top: 20px;
+}
+.camo-hood img{
+    height:350px;
 }
 .slip-fund h2{
     border-radius: 0 0 0 30px;
@@ -711,6 +723,9 @@ footer{
     .fm-text{
         font-size: 3rem;
         padding:0;
+    }
+    .merit-fund{
+        display: inline-block;
     }
     .rf-text, .rf-benefits, .rf-features{
         font-size: 1.3rem ;
