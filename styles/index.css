@@ -758,5 +758,28 @@ footer{
     .retail-links{
         margin-top: -180px;
     }
+    .merit-fund{
+        display: flex;
+        justify-content: space-around;
+    }
+    .merit-fund-info{
+        color:var(--white);
+        width: 500px;
+    }
+    .merit-fund-info h3 {
+        color: var(--red);
+        font-size: 1.5rem;
+    }
+    .merit-fund-info p{
+        font-size: 1.3rem;
+    }
+    .mf-benefits ul{
+        list-style: none;
+        font-size: 1.3rem;
+    }
+    .mf-benefits,.mf-key-facts{
+        margin-top: 30px;
+    }
+    .plush-fund
 }
 
