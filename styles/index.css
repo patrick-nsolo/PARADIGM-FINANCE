@@ -811,5 +811,8 @@ footer{
     .corporate-redbox{
         margin-top: 0px;
     }
+    .service-hero .page-title{
+        color: var(--red);
+    }
 }
 
