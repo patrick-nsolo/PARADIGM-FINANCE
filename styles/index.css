@@ -479,6 +479,9 @@ footer{
     float: right;
     border-radius: 30px 0 0 0;
 }
+.paradigm-thumbnail img{
+    width:40px;
+}
 .fund-management-pic{
     position: relative;
 }
@@ -530,8 +533,11 @@ footer{
     color:var(--white);
     padding: 30px;
 }
+.rf-benefits h3, .rf-features h3{
+    color: var(--red);
+}
 .rf-benefits, .rf-features{
-    margin-top: -30px;
+    margin-top: -13px;
 }
 .rf-red-box{
     background-color: var(--red);
