@@ -565,19 +565,36 @@ footer{
 }
 .camo-hood img{
     height:350px;
+    display: none;
 }
 .merit_fund{
-    
+    background-color: var(--coldblue);
+    height:500px;
 }
 
 .merit-fund-info{
     color: var(--white);
-    margin-top: -100px;
     padding: 20px;
+}
+.merit-fund-info ul{
+    list-style: none;
 }
 .merit-fund-info h3 {
     color: var(--red);
     
+}
+.plush-fund{
+    display: inline-block;
+}
+.pf-wrap{
+    margin-top: 100px;
+}
+.pfl-text,table{
+    color: var(--white);
+    margin-top: 20px;
+}
+table{
+    word-spacing: 10px;
 }
 .slip-fund{
     height:500px;
