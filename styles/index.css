@@ -806,8 +806,10 @@ footer{
     th, td{
         border: 1px solid var(--white);
         padding: 8px;
-        text-align: left;
-        
+        text-align: left;   
+    }
+    .corporate-redbox{
+        margin-top: 0px;
     }
 }
 
