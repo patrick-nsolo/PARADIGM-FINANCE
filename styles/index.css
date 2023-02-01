@@ -562,6 +562,9 @@ footer{
 .sf-red-box{
     margin-top: 48px;
 }
+.etf-benefits h3, .etf-keyfacts h3{
+    color: var(--red);
+}
 .edu-trust-fund{
     display: block;
     text-align: justify;
