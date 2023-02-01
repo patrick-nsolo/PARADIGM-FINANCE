@@ -788,5 +788,18 @@ footer{
     .white-beard-man img{
         height: 900px;
     }
+    .pfl-text{
+        font-size: 1.3rem;
+        color: var(--white);
+        text-align: center;
+        padding:10px 50px;
+    }
+    .table{
+        color:var(--white);
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
 }
 
