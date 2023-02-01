@@ -24,7 +24,6 @@ img{
 /*Top Navigation landing page Styling Starts*/
 .landing-head{
     display: flex;
-    justify-content: end;
 }
 /*Top Navigation landing page Styling Starts*/
 /*Landing page Styling starts*/
@@ -668,6 +667,7 @@ footer{
     .objectives-red-box{
         width:200px;
         height:150px;
+        margin-top: 32px;
     }
     .objectives-list{
         color:var(--white);
@@ -750,6 +750,10 @@ footer{
         border-radius: 0 0 60px 0;
         font-size: 1.6rem;
         padding: 10px;
+    }
+    .contact-section-list ul li{
+        color:var(--red);
+        font-size:2rem;
     }
     .retail-links{
         margin-top: -180px;
