@@ -616,6 +616,7 @@ footer{
 .contact-section-list{
     padding: 20px;
     color: var();
+    font-size: 0.6rem;
 }
 .contact-section-list ul li{
     list-style: none;
@@ -623,6 +624,9 @@ footer{
 .contact-section-list ul li::before{
     content: "\25B6";
     color:var(--red)
+}
+.retail-links{
+    margin-top: -800px;
 }
 /*RETAIL AND SERVICES PAGE MEDIA STYLING*/
 @media screen and (min-width: 600px){
