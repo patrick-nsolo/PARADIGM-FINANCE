@@ -838,6 +838,7 @@ table{
     }
     .camo-hood img{
         height:750px;
+        display: block;
     }
     .merit-fund-info{
         color:var(--white);
