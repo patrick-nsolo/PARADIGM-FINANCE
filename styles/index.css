@@ -498,6 +498,12 @@ footer{
 }
 .text-box h1{
     font-size: 5rem;
+    color:var(--darkgrey);
+}
+.text-box p{
+    background: var(--grey);
+    height:300px;
+    margin-top: 400px;
 }
 .fund-management-thumbnail{
     right:0;
