@@ -754,7 +754,13 @@ table{
         height:150px;
         margin-top: -150px;
     }
-    
+    .fm-wrap img{
+        width:100%;
+        position:relative;
+    }
+    .text-box p{
+        font-size: 2rem;
+    }
     .merit-fund{
         display: inline-block;
     }
