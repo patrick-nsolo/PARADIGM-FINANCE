@@ -672,7 +672,7 @@ table{
     color:var(--red)
 }
 .retail-links{
-    margin-top: -800px;
+    margin-top:0;
 }
 /*RETAIL AND SERVICES PAGE MEDIA STYLING*/
 @media screen and (min-width: 600px){
@@ -830,7 +830,7 @@ table{
         font-size:2rem;
     }
     .retail-links{
-        margin-top: 0;
+        margin-top:0;
     }
     .merit-fund{
         display: flex;
