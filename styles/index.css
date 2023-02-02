@@ -493,17 +493,21 @@ footer{
 .text-box{
     position: absolute;
     top:80px;
-    text-align: center;
-    
+    text-align: center;   
 }
 .text-box h1{
     font-size: 5rem;
     color:var(--darkgrey);
 }
+.text-box h2{
+    font-size: 3rem;
+    color: var(--darkgrey);
+}
 .text-box p{
     background: var(--grey);
     height:300px;
-    margin-top: 400px;
+    margin-top: 300px;
+    padding: 50px 200px;
 }
 .fund-management-thumbnail{
     right:0;
