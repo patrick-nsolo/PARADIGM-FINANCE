@@ -770,6 +770,7 @@ table{
     .text-box h1{
         font-size: 5rem;
         color:var(--darkgrey);
+        margin-top: -20px;
     }
     .text-box h2{
         font-size: 3rem;
@@ -777,7 +778,7 @@ table{
     }
     .text-box p{
         background: var(--grey);
-        height:300px;
+        height:200px;
         margin-top: 300px;
         padding: 50px 200px;
         font-size: 2rem;
