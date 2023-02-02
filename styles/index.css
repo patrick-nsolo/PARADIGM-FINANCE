@@ -754,20 +754,7 @@ table{
         height:150px;
         margin-top: -150px;
     }
-    .fm-text{
-        font-size: 3rem;
-        padding:0;
-    }
-    .fm-wrap{
-        position: relative;
-        height: 100vh;
-        width: 100%;
-    }
-    .fm-pic-wrap img{
-        position:absolute;
-        top:0;
-        left:0;
-    }
+    
     .merit-fund{
         display: inline-block;
     }
