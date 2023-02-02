@@ -829,8 +829,8 @@ table{
         color:var(--red);
         font-size:2rem;
     }
-    .retai-links{
-        margin-top: -180px;
+    .retail-links{
+        margin-top: 0;
     }
     .merit-fund{
         display: flex;
