@@ -490,25 +490,9 @@ footer{
     width:100%;
     position:relative;
 }
-.text-box{
-    position: absolute;
-    top:80px;
-    text-align: center;   
-}
-.text-box h1{
-    font-size: 5rem;
-    color:var(--darkgrey);
-}
-.text-box h2{
-    font-size: 3rem;
-    color: var(--darkgrey);
-}
-.text-box p{
-    background: var(--grey);
-    height:300px;
-    margin-top: 300px;
-    padding: 50px 200px;
-}
+
+
+
 .fund-management-thumbnail{
     right:0;
     margin-top: 5px;
@@ -534,8 +518,24 @@ footer{
     color: var(--white);
     font-size: 1.2rem;
 }
-
-
+.text-box{
+    position: absolute;
+    top:30px;
+       
+}
+.text-box h1{
+    font-size: 2.2rem;
+    color:var(--white);
+}
+.text-box h2{
+    font-size: 2rem;
+    color: var(--white);
+}
+.text-box p{
+    background: var(--grey);
+    height:100px;
+    font-size: 1rem;
+}
 .reserve-funds{
     background-color: var(--coldblue);
     width: 100%;
@@ -761,17 +761,33 @@ table{
         height:150px;
         margin-top: -150px;
     }
+
+    .text-box{
+        position: absolute;
+        top:80px;
+        text-align: center;   
+    }
+    .text-box h1{
+        font-size: 5rem;
+        color:var(--darkgrey);
+    }
+    .text-box h2{
+        font-size: 3rem;
+        color: var(--darkgrey);
+    }
+    .text-box p{
+        background: var(--grey);
+        height:300px;
+        margin-top: 300px;
+        padding: 50px 200px;
+        font-size: 2rem;
+    }
     .fm-wrap img{
         width:100%;
         
     }
     .fm-wrap h1{
-        font-size: 3rem;
-        
-         
-    }
-    .text-box p{
-        font-size: 2rem;
+        font-size: 3rem;    
     }
     .merit-fund{
         display: inline-block;
