@@ -728,7 +728,7 @@ table{
     .objectives{
         background-color: var(--coldblue);
         width: 100%;
-        height: 625px;      
+        height: 500px;      
     }
     .objective-thumbnail img{
         width: 150px; 
@@ -753,9 +753,7 @@ table{
         line-height: 40px;
         font-size: 1.3rem;
     }
-    .reserve-funds{
-        height:750px;
-    }
+    
     .fm-red-box{
         width:200px;
         height:150px;
@@ -805,7 +803,7 @@ table{
         margin-top: 20px;
     }
     .slip-fund{
-        height:700px;
+        height:500px;
     }
     .slip-fund h2{
         border-radius: 0 0 0 60px;
@@ -867,6 +865,9 @@ table{
     .merit-fund{
         display: flex;
         justify-content: space-around;
+    }
+    .merit_fund{
+        height:650px;
     }
     .camo-hood img{
         height:750px;
