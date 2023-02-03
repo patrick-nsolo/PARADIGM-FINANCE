@@ -681,6 +681,9 @@ table{
 .retail-links{
     margin-top:0;
 }
+body .grey-background{
+    background-color: var(--darkgrey);
+}
 /*RETAIL AND SERVICES PAGE MEDIA STYLING*/
 @media screen and (min-width: 600px){
     .paradigm-thumbnail img{
