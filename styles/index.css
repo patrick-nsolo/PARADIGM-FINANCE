@@ -21,15 +21,7 @@ img{
     --lightblue:rgb(0, 213, 255);
     --coldblue:rgb(11, 1, 49);
 }
-/*Top Navigation landing page Styling Starts*/
-.landing-head{
-    display: flex;
-}
-/*Top Navigation landing page Styling Starts*/
-/*Landing page Styling starts*/
-.hero-image{
-    margin-top: 50px;
-}
+/*LANDING PAGE STYLING STARTS HERE*/
 .wrapper{
     margin: auto;
     text-align: center;
@@ -86,9 +78,7 @@ img{
 .card{
     margin-top: 30px;
 }
-
-/*Landing page Styling ends*/
-/*MEDIA DESKTOP*/
+/*Landing page MEDIA DESKTOP styling*/
 @media screen and (min-width: 1200px){
         .wrapper{
         text-align: left;
@@ -122,8 +112,10 @@ img{
         margin-top: 0;
     }
 }
+/*LANDING PAGE STYLING ENDS HERE*/
 
-/*NAVIGATION STYLING STARTS HERE*/ /*ALL RED PAGES*/
+/*NAVIGATION STYLING STARTS HERE*/ 
+/*ABOUT,TEAM,PHILOSOPHY,MISSION,VSION PAGES*/
 .head{
     display: flex;
     justify-content: end;
@@ -181,7 +173,8 @@ img{
         font-size: 0.8rem;
     }
 }
-/*NAVIGATION STYLING ENDS HERE*/ /*ALL RED PAGES*/
+/*NAVIGATION STYLING ENDS HERE*/ 
+
 /*ALL PAGE TRANSITIONS STARTS*/
 .slide-in-left{
     animation: slide-in-from-left 1s ease-in-out forwards;
