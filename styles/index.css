@@ -687,6 +687,9 @@ body .grey-background{
 body .black-background{
     background-color: var(--black);
 }
+.contact-links{
+    display:none;
+}
 /*RETAIL AND SERVICES PAGE MEDIA STYLING*/
 @media screen and (min-width: 600px){
     .paradigm-thumbnail img{
@@ -946,6 +949,9 @@ body .black-background{
     }
     .service-hero .page-title{
         color: var(--red);
+    }
+    .contact-links{
+        margin-top: -180px;
     }
 }
 
