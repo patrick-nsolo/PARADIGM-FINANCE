@@ -952,6 +952,7 @@ body .black-background{
     }
     .contact-links{
         margin-top: -180px;
+        display: block;
     }
 }
 
