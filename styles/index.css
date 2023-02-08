@@ -770,8 +770,10 @@ body .black-background{
     .cp-wrap .cp-text h1, .cp-wrap .cp-text h2{
         color: var(--black);
     }
-    .cp-text h1{
+    .cp-wrap .cp-text h1{
         padding:0 200px;
+        color: var(--white);
+        background: var(--black);
     }
     .text-box{
         position: absolute;
