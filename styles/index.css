@@ -867,6 +867,9 @@ body .black-background{
         font-size: 1.6rem;
         padding: 10px;
     }
+    .contact-section-list ul{
+        line-height: 50px;
+    }
     .contact-section-list ul li{
         color:var(--white);
         font-size:2rem;
