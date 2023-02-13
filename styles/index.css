@@ -174,7 +174,6 @@ img{
     }
 }
 /*NAVIGATION STYLING ENDS HERE*/ 
-
 /*ALL PAGE TRANSITIONS STARTS*/
 .slide-in-left{
     animation: slide-in-from-left 1s ease-in-out forwards;
@@ -215,10 +214,10 @@ footer{
     background: var(--grey);
     color:var(--white);  
 }
-
 /*Team Page Profile styling starts */
 .profiles-container{
     display:block;
+    margin-top: 100px;
 }
 .profile-container{
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
@@ -479,9 +478,6 @@ footer{
     width:100%;
     position:relative;
 }
-
-
-
 .fund-management-thumbnail{
     right:0;
     margin-top: 5px;
@@ -568,7 +564,6 @@ footer{
     background-color: var(--coldblue);
     height:500px;
 }
-
 .merit-fund-info{
     color: var(--white);
     padding: 20px;
