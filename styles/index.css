@@ -304,25 +304,21 @@ footer{
     }
     .profile-container{
         height: 300px;
-        margin-top: 80px;
+        margin-top: 120px;
     }
     .kayode-image{
         margin-left: 0px; 
-    }
-    .kayode-profile{
-        margin-right: 120px;
-    }
-    .mildred-profile{
-        margin-right: 40px;
     }
     .chukwumankpam-profile{
         margin-right: -30px;
     }
     .giovanni-image{
         margin-left: -20px;
+        
     }
     .giovanni-profile{
         margin-right: 120px;
+        
     }
     .okeleye-profile{
         margin-right: -40px;  
