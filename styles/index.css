@@ -222,9 +222,12 @@ footer{
 .management-profile{
     margin-top: 450px;
 }
+.chukwumankpam-profile{
+    margin-top: 10px;
+}
 .profile-container{
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
-    margin-top: 200px;
+    margin-top: 300px;
     height: 400px;     
 }
 .info{
@@ -288,7 +291,7 @@ footer{
     margin-top: 80px;
 }
 .okeleye{
-    margin-top: 270px;
+    margin-top: 400px;
 }
 /*team page desktop styling*/
 @media screen and (min-width: 1200px){
