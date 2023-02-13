@@ -768,6 +768,10 @@ body .black-background{
     }
     .fm-retail-wrap .fm-retail-text h1, .fm-retail-wrap .fm-retail-text h2{
         color:var(--white);
+        font-size: 5rem;
+    }
+    .fm-retail-wrap .fm-retail-text h2{
+        font-size: 4rem;
     }
     .pr-wrap .pr-text h1, .pr-wrap .pr-text h2{
         color: var(--coldblue);
