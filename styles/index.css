@@ -509,6 +509,10 @@ footer{
     color: var(--white);
     font-size: 1.2rem;
 }
+.fm-retail-text p{
+    padding:10px 20px;
+
+}
 .text-box{
     position: absolute;
     top:30px;
