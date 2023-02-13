@@ -868,7 +868,7 @@ body .black-background{
         padding: 10px;
     }
     .contact-section-list ul li{
-        color:var(--red);
+        color:var(--white);
         font-size:2rem;
     }
     .retail-links{
